@@ -1,0 +1,1018 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tercera aplicacion movil</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app3.min.css"/>
+ <link rel="stylesheet"href="css/jquery.mobile.icons-1.4.5.min.css"/> 
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript--> 
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/libro1_1.jpg','imagenes/libro2_2.jpg','imagenes/libro3_3.jpg','imagenes/libro4_4.jpg','imagenes/libro5_5.jpg','imagenes/libro6_6.jpg','imagenes/libro7_7.jpg','imagenes/libro8_8.jpg','imagenes/libro9_9.jpg','imagenes/libro10_10.jpg','imagenes/libro11_11.jpg')">
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Bibliografía Programación.</h1>
+ </div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/libro1.jpg" alt="Redes de Computadoras." title="Redes de Computadoras." id="wows1_0"/></li>
+		<li><img src="data1/images/libro2.jpg" alt="Paso a Paso Visual C# 2010." title="Paso a Paso Visual C# 2010." id="wows1_1"/></li>
+		<li><img src="data1/images/libro3.jpg" alt="Programacion Avanzada (SQL Server 2005)." title="Programacion Avanzada (SQL Server 2005)." id="wows1_2"/></li>
+		<li><img src="data1/images/libro4.jpg" alt="Sistemas Operativos." title="Sistemas Operativos." id="wows1_3"/></li>
+		<li><img src="data1/images/libro5.jpg" alt="Fundamentos de Redes." title="Fundamentos de Redes." id="wows1_4"/></li>
+		<li><img src="data1/images/libro6.jpg" alt="Mantenimiento y Reparacion de Computadoras." title="Mantenimiento y Reparacion de Computadoras." id="wows1_5"/></li>
+		<li><img src="data1/images/libro7.jpg" alt="Estructura de Datos." title="Estructura de Datos." id="wows1_6"/></li>
+		<li><img src="data1/images/libro8.jpg" alt="Paso a Paso ASP.NET 4.0" title="Paso a Paso ASP.NET 4.0" id="wows1_7"/></li>
+		<li><img src="data1/images/libro9.jpg" alt="Java como Programar," title="Java como Programar," id="wows1_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/libro10.jpg" alt="wowslider" title="Programacion en Java." id="wows1_9"/></a></li>
+		<li><img src="data1/images/libro11.jpg" alt="Comunicaciones y Redes." title="Comunicaciones y Redes." id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Redes de Computadoras."><span><img src="data1/tooltips/libro1.jpg" alt="Redes de Computadoras."/>1</span></a>
+		<a href="#" title="Paso a Paso Visual C# 2010."><span><img src="data1/tooltips/libro2.jpg" alt="Paso a Paso Visual C# 2010."/>2</span></a>
+		<a href="#" title="Programacion Avanzada (SQL Server 2005)."><span><img src="data1/tooltips/libro3.jpg" alt="Programacion Avanzada (SQL Server 2005)."/>3</span></a>
+		<a href="#" title="Sistemas Operativos."><span><img src="data1/tooltips/libro4.jpg" alt="Sistemas Operativos."/>4</span></a>
+		<a href="#" title="Fundamentos de Redes."><span><img src="data1/tooltips/libro5.jpg" alt="Fundamentos de Redes."/>5</span></a>
+		<a href="#" title="Mantenimiento y Reparacion de Computadoras."><span><img src="data1/tooltips/libro6.jpg" alt="Mantenimiento y Reparacion de Computadoras."/>6</span></a>
+		<a href="#" title="Estructura de Datos."><span><img src="data1/tooltips/libro7.jpg" alt="Estructura de Datos."/>7</span></a>
+		<a href="#" title="Paso a Paso ASP.NET 4.0"><span><img src="data1/tooltips/libro8.jpg" alt="Paso a Paso ASP.NET 4.0"/>8</span></a>
+		<a href="#" title="Java como Programar,"><span><img src="data1/tooltips/libro9.jpg" alt="Java como Programar,"/>9</span></a>
+		<a href="#" title="Programacion en Java."><span><img src="data1/tooltips/libro10.jpg" alt="Programacion en Java."/>10</span></a>
+		<a href="#" title="Comunicaciones y Redes."><span><img src="data1/tooltips/libro11.jpg" alt="Comunicaciones y Redes."/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+ <div> 
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Redes de Computadoras.</h2> 
+   <p>Andrew S. Tanenbaum.</p> 
+  </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Paso a Paso (Visual C# 2010).</h2>
+        <p>John Sharp.</p>
+     </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Programación Avanzada (SQL Server 2005).</h2>
+      <p>Andrew J. Brust.</p> 
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Sistemas Operativos.</h2>
+       <p>Jesús Carretero Pérez.</p> 
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Fundamentos de Redes.</h2>
+      <p>Bruce A. Hallberg.</p>
+   </a> 
+  </li> 
+   
+ 
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Mantenimiento y Reparación de Computadoras.</h2> 
+   <p>**</p> 
+  </a>
+ </li>
+ 
+ 
+  
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Estructuras de Datos.</h2> 
+   <p>Osvaldo Cairó.</p> 
+  </a>
+ </li>
+  
+ 
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Paso a Paso (ASP.NET 4.0).</h2> 
+   <p>George Shepherd.</p> 
+  </a>
+ </li>
+ 
+ 
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Java Cómo Programar.</h2> 
+   <p>**</p> 
+  </a>
+ </li>
+ 
+  
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Programación en Java.</h2> 
+   <p>C. Thomas Wu.</p> 
+  </a>
+ </li>
+ 
+  <li class="ui-first-child ui -last-child">
+  <a href ="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+   <h2>Comunicaciones y Redes de Computadoras.</h2> 
+   <p>William Stallings.</p> 
+  </a>
+ </li>
+  </ul>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <img src="imagenes/persona_rosa.png" width="46" height="46"> 
+   </div> 
+   <div>
+     <h4>Aplicación Tres.</h4> 
+     <h4>Ximena Gaytan Curiel</h4> 
+   </div> 
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Redes de Computadoras.</h1>
+   </div>
+   <div data-role="content" align="center">
+     <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','imagenes/libro1_1.jpg',1)"><img src="imagenes/libro1.jpg" width="380" height="203" id="Image1"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más información...</h1>
+     <div>
+      <p><a href="http://www.freelibros.org/redes/redes-de-computadoras-4ta-edicion-andrew-s-tanenbaum-2.html" target="_self">Clic para Descargar.</a><br><br><a href="https://www.amazon.com.mx/s/?ie=UTF8&keywords=tanenbaum&tag=googhydr0mx-20&index=aps&hvadid=176067664557&hvpos=1t1&hvnetw=g&hvrand=7525979293961552253&hvpone=&hvptwo=&hvqmt=b&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20715&hvtargid=kwd-78418688&ref=pd_sl_4bz8n85xlq_b&gclid=Cj0KEQjwzpfHBRC1iIaL78Ol-eIBEiQAdZPVKpL6DAaCBRg0vgieWIAZTWiR_D9lR4LIAC_VB3kReDkaArqc8P8HAQ" target="_self">Clic para Comprar. </a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+       <h2>1 INTRODUCCIÓN<br> 1.1 USOS DE LAS REDES DE COMPUTADORAS<br> 1.1.1 Aplicaciones de negocios <br>1.1.2 Aplicaciones domésticas<br>1.1.3 Usuarios móviles<br> 1.1.4 Temas sociales <br>1.2 HARDWARE DE REDES <br>1.2.1 Redes de área local <br>1.2.2 Redes de área metropolitana<br> 1.2.3 Redes de área amplia <br>1.2.4 Redes inalámbricas<br> 1.2.5 Redes domésticas<br>1.2.6 Interredes <br1.3 SOFTWARE DE REDES<br> 1.3.1 Jerarquías de protocolos<br> 1.3.2 Aspectos de diseño de las capas<br> 1.3.3 Servicios orientados a la conexión y no orientados a la conexión<br> 1.3.4 Primitivas de servicio <br>1.3.5 Relación de servicios a protocolos <br>1.4 MODELOS DE REFERENCIA<br> 1.4.1 El modelo de referencia OSI <br>1.4.2 El modelo de referencia TCP/IP <br>
+1.4.3 Comparación entre los modelos de referencia OSI y TCP/IP <br>
+1.4.4 Crítica al modelo OSI y los protocolos <br>
+1.4.5 Crítica del modelo de referencia TCP/IP <br>
+1.5 REDES DE EJEMPLO <br>
+1.5.1 Internet <br>
+1.5.2 Redes orientadas a la conexión: X.25, Frame Relay y ATM<br> 
+1.5.3 Ethernet <br>
+1.5.4 LANs inalámbricas: 802.11 <br>
+1.6 ESTANDARIZACIÓN DE REDES <br>
+1.6.1 Quién es quién en el mundo de las telecomunicaciones<br> 
+1.6.2 Quién es quién en los estándares internacionales <br>
+1.6.3 Quién es quién en el mundo de los estándares de Internet<br> 
+1.7 UNIDADES MÉTRICAS <br>
+1.8 PANORAMA DEL RESTO DEL LIBRO<br> 
+1.9 RESUMEN <br>2 LA CAPA FÍSICA <br>
+2.1 LA BASE TEÓRICA DE LA COMUNICACIÓN DE DATOS<br> 
+2.1.1 El análisis de Fourier <br>
+2.1.2 Señales de ancho de banda limitado<br> 
+2.1.3 La tasa de datos máxima de un canal <br>
+2.2 MEDIOS DE TRANSMISIÓN GUIADOS <br>
+2.2.1 Medios magnéticos <br>
+2.2.2 Par trenzado <br>
+2.2.3 Cable coaxial <br>
+2.2.4 Fibra óptica <br>
+2.3 TRANSMISIÓN INALÁMBRICA<br> 
+2.3.1 El espectro electromagnético<br> 
+2.3.2 Radiotransmisión<br>2.3.3 Transmisión por microondas 104 <br>
+2.3.4 Ondas infrarrojas y milimétricas 106 <br>
+2.3.5 Transmisión por ondas de luz 107 <br>
+2.4 SATÉLITES DE COMUNICACIONES 109 <br>
+2.4.1 Satélites geoestacionarios 109 <br>
+2.4.2 Satélites de Órbita Terrestre Media 113 <br>
+2.4.3 Satélites de Órbita Terrestre Baja 114 <br>
+2.4.4 Satélites en comparación con fibra óptica 117 <br>
+2.5 LA RED TELEFÓNICA PÚBLICA CONMUTADA 118 <br>
+2.5.1 Estructura del sistema telefónico 119 <br>
+2.5.2 La política de los teléfonos 122 <br>
+2.5.3 El circuito local: módems, ADSL e inalámbrico 124 <br>
+2.5.4 Troncales y multiplexión 137 <br>
+2.5.5 Conmutación 146 <br>
+2.6 EL SISTEMA TELEFÓNICO MÓVIL 152 <br>
+2.6.1 Teléfonos móviles de primera generación 153 <br>
+2.6.2 Teléfonos móviles de segunda generación: voz digital 157 <br>
+2.6.3 Teléfonos móviles de tercera generación: voz y datos digitales 166 <br>
+2.7 TELEVISIÓN POR CABLE 169 <br>
+2.7.1 Televisión por antena comunal 169 <br>
+2.7.2 Internet a través de cable 170 <br>
+2.7.3 Asignación de espectro 172 <br>
+2.7.4 Módems de cable 173 <br>
+2.7.5 ADSL en comparación con el cable 175 <br>
+2.8 RESUMEN 177 <br>
+3 LA CAPA DE ENLACE DE DATOS 183 <br>
+3.1 CUESTIONES DE DISEÑO DE LA CAPA DE ENLACE DE DATOS 184 <br>
+3.1.1 Servicios proporcionados a la capa de red 184 <br>
+3.1.2 Entramado 187 <br>
+3.1.3 Control de errores 191 <br>
+3.1.4 Control de flujo 192 <br>3.2 DETECCIÓN Y CORRECCIÓN DE ERRORES 192<br>
+3.2.1 Códigos de corrección de errores 193<br>
+3.2.2 Códigos de detección de errores 196<br>
+3.3 PROTOCOLOS ELEMENTALES DE ENLACE DE DATOS 200<br>
+3.3.1 Un protocolo símplex sin restricciones 204<br>
+3.3.2 Protocolo símplex de parada y espera 206<br>
+3.3.3 Protocolo símplex para un canal con ruido 208<br>
+3.4 PROTOCOLOS DE VENTANA CORREDIZA 211<br>
+3.4.1 Un protocolo de ventana corrediza de un bit 214<br>
+3.4.2 Protocolo que usa retroceso N 216<br>
+3.4.3 Protocolo que utiliza repetición selectiva 223<br>
+3.5 VERIFICACIÓN DE LOS PROTOCOLOS 229<br>
+3.5.1 Modelos de máquinas de estado finito 229<br>
+3.5.2 Modelos de red de Petri 232<br>
+3.6 EJEMPLOS DE PROTOCOLOS DE ENLACE DE DATOS 234<br>
+3.6.1 HDLC—Control de Enlace de Datos de Alto Nivel 234<br>
+3.6.2 La capa de enlace de datos en Internet 237<br>
+3.7 RESUMEN 242<br>
+4 LA SUBCAPA DE CONTROL DE ACCESO AL MEDIO 247<br>
+4.1 EL PROBLEMA DE ASIGNACIÓN DEL CANAL 248<br>
+4.1.1 Asignación estática de canal en LANs y MANs 248<br>
+4.1.2 Asignación dinámica de canales en LANs y MANs 249<br>
+4.2 PROTOCOLOS DE ACCESO MÚLTIPLE 251<br>
+4.2.1 ALOHA 251<br>
+4.2.2 Protocolos de acceso múltiple con detección de portadora 255<br>
+4.2.3 Protocolos libres de colisiones 259<br>
+4.2.4 Protocolos de contención limitada 261<br>
+4.2.5 Protocolos de acceso múltiple por división de longitud de onda 265<br>
+4.2.6 Protocolos de LANs inalámbricas 267 <br>4.3 ETHERNET 271<br>
+4.3.1 Cableado Ethernet 271<br>
+4.3.2 Codificación Manchester 274<br>4.3.3 El protocolo de subcapa MAC de Ethernet 275<br>4.3.4 Algoritmo de retroceso exponencial binario 278
+4.3.5 Desempeño de Ethernet 279<br>
+4.3.6 Ethernet conmutada 281<br>
+4.3.7 Fast Ethernet 283<br>
+4.3.8 Gigabit Ethernet 286<br>
+4.3.9 Estándar IEEE 802.2: control lógico del enlace 290<br>
+4.3.10 Retrospectiva de Ethernet 291<br>
+4.4 LANS INALÁMBRICAS 292<br>
+4.4.1 La pila de protocolos del 802.11 292<br>
+4.4.2 La capa física del 802.11 293<br>
+4.4.3 El protocolo de la subcapa MAC del 802.11 295<br>
+4.4.4 La estructura de trama 802.11 299<br>
+4.4.5 Servicios 301<br>
+4.5 BANDA ANCHA INALÁMBRICA 302<br>
+4.5.1 Comparación entre los estándares 802.11 y 802.16 303<br>
+4.5.2 La pila de protocolos del estándar 802.16 305<br>
+4.5.3 La capa física del estándar 802.16 306<br>
+4.5.4 El protocolo de la subcapa MAC del 802.16 307<br>
+4.5.5 La estructura de trama 802.16 309<br>
+4.6 BLUETOOTH 310<br>
+4.6.1 Arquitectura de Bluetooth 311<br>
+4.6.2 Aplicaciones de Bluetooth 312<br>
+4.6.3 La pila de protocolos de Bluetooth 313<br>
+4.6.4 La capa de radio de Bluetooth 314<br>
+4.6.5 La capa de banda base de Bluetooth 315<br>
+4.6.6 La capa L2CAP de Bluetooth 316<br>
+4.6.7 Estructura de la trama de Bluetooth 316<br>
+4.7 CONMUTACIÓN EN LA CAPA DE ENLACE DE DATOS 317<br>
+4.7.1 Puentes de 802.x a 802.y 319<br>
+4.7.2 Interconectividad local 322<br>
+4.7.3 Puentes con árbol de expansión 323<br>
+4.7.4 Puentes remotos 325<br>
+4.7.5 Repetidores, concentradores, puentes, conmutadores, enrutadores y puertas
+de enlace 326<br>
+4.7.6 LANs virtuales 328<br>
+4.8 RESUMEN 336<br>5 LA CAPA DE RED 343<br>
+5.1 ASPECTOS DE DISEÑO DE LA CAPA DE RED 343<br>
+5.1.1 Conmutación de paquetes de almacenamiento y reenvío 344<br>
+5.1.2 Servicios proporcionados a la capa de transporte 344<br>
+5.1.3 Implementación del servicio no orientado a la conexión 345<br>
+5.1.4 Implementación del servicio orientado a la conexión 347<br>
+5.1.5 Comparación entre las subredes de circuitos virtuales y las de
+datagramas 348<br>
+5.2 ALGORITMOS DE ENRUTAMIENTO 350<br>
+5.2.1 Principio de optimización 352<br>
+5.2.2 Enrutamiento por la ruta más corta 353<br>
+5.2.3 Inundación 355<br>
+5.2.4 Enrutamiento por vector de distancia 357<br>
+5.2.5 Enrutamiento por estado del enlace 360<br>
+5.2.6 Enrutamiento jerárquico 366<br>
+5.2.7 Enrutamiento por difusión 368<br>
+5.2.8 Enrutamiento por multidifusión 370<br>
+5.2.9 Enrutamiento para hosts móviles 372<br>
+5.2.10 Enrutamiento en redes ad hoc 375<br>
+5.2.11 Búsqueda de nodos en redes de igual a igual 380<br>
+5.3 ALGORITMOS DE CONTROL DE CONGESTIÓN 384<br>
+5.3.1 Principios generales del control de congestión 386<br>
+5.3.2 Políticas de prevención de congestión 388<br>
+5.3.3 Control de congestión en subredes de circuitos virtuales 389<br>
+5.3.4 Control de congestión en subredes de datagramas 391<br>
+5.3.5 Desprendimiento de carga 394<br>
+5.3.6 Control de fluctuación 395<br>
+5.4 CALIDAD DEL SERVICIO 397<br>
+5.4.1 Requerimientos 397<br>
+5.4.2 Técnicas para alcanzar buena calidad de servicio 398<br>
+5.4.3 Servicios integrados 409<br>
+5.4.4 Servicios diferenciados 412<br>
+5.4.5 Conmutación de etiquetas y MPLS 415<br>
+5.5 INTERCONECTIVIDAD 418<br>
+5.5.1 Cómo difieren las redes 419<br>
+5.5.2 Conexión de redes 420<br>
+5.5.3 Circuitos virtuales concatenados 422<br>
+5.5.4 Interconectividad no orientada a la conexión 423<br>5.5.5 Entunelamiento 425<br>
+5.5.6 Enrutamiento entre redes 426<br>
+5.5.7 Fragmentación 427<br>
+5.6 LA CAPA DE RED DE INTERNET 431<br>
+5.6.1 El protocolo IP 433<br>
+5.6.2 Direcciones IP 436<br>
+5.6.3 Protocolos de Control en Internet 449<br>
+5.6.4 OSPF—Protocolos de Enrutamiento de Puerta de Enlace Interior 454<br>
+5.6.5 BGP—Protocolo de Puerta de Enlace de Frontera 459<br>
+5.6.6 Multidifusión de Internet 461<br>
+5.6.7 IP móvil 462<br>
+5.6.8 IPv6 464<br>
+5.7 RESUMEN 473<br>
+6 LA CAPA DE TRANSPORTE 481<br>
+6.1 EL SERVICIO DE TRANSPORTE 481<br>
+6.1.1 Servicios proporcionados a las capas superiores 481<br>
+6.1.2 Primitivas del servicio de transporte 483<br>
+6.1.3 Sockets de Berkeley 487<br>
+6.1.4 Un ejemplo de programación de sockets: un servidor de archivos
+de Internet 488<br>
+6.2 ELEMENTOS DE LOS PROTOCOLOS DE TRANSPORTE 492<br>
+6.2.1 Direccionamiento 493<br>
+6.2.2 Establecimiento de una conexión 496<br>
+6.2.3 Liberación de una conexión 502<br>
+6.2.4 Control de flujo y almacenamiento en búfer 506<br>
+6.2.5 Multiplexión 510<br>
+6.2.6 Recuperación de caídas 511<br>
+6.3 UN PROTOCOLO DE TRANSPORTE SENCILLO 513<br>
+6.3.1 Las primitivas de servicio de ejemplo 513<br>
+6.3.2 La entidad de transporte de ejemplo 515<br>
+6.3.3 El ejemplo como máquina de estados finitos 522<br>
+6.4 LOS PROTOCOLOS DE TRANSPORTE DE INTERNET: UDP 524<br>
+6.4.1 Introducción a UDP 525<br>
+6.4.2 Llamada a procedimiento remoto 526<br>
+6.4.3 El protocolo de transporte en tiempo real 529<br>6.5 LOS PROTOCOLOS DE TRANSPORTE DE INTERNET: TCP 532<br>
+6.5.1 Introducción a TCP 532<br>
+6.5.2 El modelo del servicio TCP 533<br>
+6.5.3 El protocolo TCP 535<br>
+6.5.4 El encabezado del segmento TCP 536<br>
+6.5.5 Establecimiento de una conexión TCP 539<br>
+6.5.6 Liberación de una conexión TCP 541<br>
+6.5.7 Modelado de administración de conexiones TCP 541<br>
+6.5.8 Política de transmisión del TCP 543<br>
+6.5.9 Control de congestión en TCP 547<br>
+6.5.10 Administración de temporizadores del TCP 550<br>
+6.5.11 TCP y UDP inalámbricos 553<br>
+6.5.12 TCP para Transacciones 555<br>
+6.6 ASPECTOS DEL DESEMPEÑO 557<br>
+6.6.1 Problemas de desempeño en las redes de cómputo 557<br>
+6.6.2 Medición del desempeño de las redes 560<br>
+6.6.3 Diseño de sistemas para un mejor desempeño 562<br>
+6.6.4 Procesamiento rápido de las TPDUs 566<br>
+6.6.5 Protocolos para redes de gigabits 569<br>
+6.7 RESUMEN 573<br>
+7 LA CAPA DE APLICACIÓN 579<br>
+7.1 DNS—EL SISTEMA DE NOMBRES DE DOMINIO 579<br>
+7.1.1 El espacio de nombres del DNS 580<br>
+7.1.2 Registros de recursos 582<br>
+7.1.3 Servidores de nombres 586<br>
+7.2 CORREO ELECTRÓNICO 588<br>
+7.2.1 Arquitectura y servicios 590<br>
+7.2.2 El agente de usuario 591<br>
+7.2.3 Formatos de mensaje 594<br>
+7.2.4 Transferencia de mensajes 602<br>
+7.2.5 Entrega final 605<br>
+7.3 WORLD WIDE WEB 611<br>
+7.3.1 Panorama de la arquitectura 612<br>
+7.3.2 Documentos Web estáticos 629<br>7.3.3 Documentos Web dinámicos 643<br>
+7.3.4 HTTP—Protocolo de Transferencia de Hipertexto 651<br>
+7.3.5 Mejoras de desempeño 656<br>
+7.3.6 La Web inalámbrica 662<br>
+7.4 MULTIMEDIA 674<br>
+7.4.1 Introducción al audio digital 674<br>
+7.4.2 Compresión de audio 676<br>
+7.4.3 Audio de flujo continuo 679<br>
+7.4.4 Radio en Internet 683<br>
+7.4.5 Voz sobre IP 685<br>
+7.4.6 Introducción al vídeo 692<br>
+7.4.7 Compresión de vídeo 696<br>
+7.4.8 Vídeo bajo demanda 704<br>
+7.4.9 Mbone—Red dorsal de multidifusión 711<br>
+7.5 RESUMEN 714<br>
+8 SEGURIDAD EN REDES 721<br>
+8.1 CRIPTOGRAFÍA 724<br>
+8.1.1 Introducción a la criptografía 725<br>
+8.1.2 Cifrados por sustitución 727<br>
+8.1.3 Cifrados por transposición 729<br>
+8.1.4 Rellenos de una sola vez 730<br>
+8.1.5 Dos principios criptográficos fundamentales 735<br>
+8.2 ALGORITMOS DE CLAVE SIMÉTRICA 737<br>
+8.2.1 DES—El Estándar de Encriptación de Datos 738<br>
+8.2.2 AES—El Estándar de Encriptación Avanzada 741<br>
+8.2.3 Modos de cifrado 745<br>
+8.2.4 Otros cifrados 750<br>
+8.2.5 Criptoanálisis 750<br>
+8.3 ALGORITMOS DE CLAVE PÚBLICA 752<br>
+8.3.1 El algoritmo RSA 753<br>
+8.3.2 Otros algoritmos de clave pública 755<br>8.4 FIRMAS DIGITALES 755<br>
+8.4.1 Firmas de clave simétrica 756<br>
+8.4.2 Firmas de clave pública 757<br>
+8.4.3 Compendios de mensaje 759<br>
+8.4.4 El ataque de cumpleaños 763<br>
+8.5 ADMINISTRACIÓN DE CLAVES PÚBLICAS 765<br>
+8.5.1 Certificados 765<br>
+8.5.2 X.509 767<br>
+8.5.3 Infraestructuras de clave pública 768<br>
+8.6 SEGURIDAD EN LA COMUNICACIÓN 772<br>
+8.6.1 Ipsec 772<br>
+8.6.2 Firewalls 776<br>
+8.6.3 Redes privadas virtuales 779<br>
+8.6.4 Seguridad inalámbrica 780<br>
+8.7 PROTOCOLOS DE AUTENTICACIÓN 785<br>
+8.7.1 Autenticación basada en una clave secreta compartida 786<br>
+8.7.2 Establecimiento de una clave compartida: el intercambio de claves de
+Diffie-Hellman 791<br>
+8.7.3 Autenticación que utiliza un centro de distribución de claves 793<br>
+8.7.4 Autenticación utilizando Kerberos 796<br>
+8.7.5 Autenticación utilizando criptografía de clave pública 798<br>
+8.8 SEGURIDAD DE CORREO ELECTRÓNICO 799<br>
+8.8.1 PGP—Privacidad Bastante Buena 799<br>
+8.8.2 PEM—Correo con Privacidad Mejorada 803<br>
+8.8.3 S/MIME 804<br>
+8.9 SEGURIDAD EN WEB 805<br>
+8.9.1 Amenazas 805<br>
+8.9.2 Asignación segura de nombres 806<br>
+8.9.3 SSL—La Capa de Sockets Seguros 813<br>
+8.9.4 Seguridad de código móvil 816<br>
+8.10 ASPECTOS SOCIALES 819<br>
+8.10.1 Privacidad 819<br>
+8.10.2 Libertad de expresión 822<br>
+8.10.3 Derechos de autor 826<br>
+8.11 RESUMEN 828<br>9 LISTA DE LECTURAS Y BIBLIOGRAFÍA 835<br>
+9.1. SUGERENCIAS DE LECTURAS ADICIONALES 835<br>
+9.1.1 Introducción y obras generales 836<br>
+9.1.2 La capa física 838<br>
+9.1.3 La capa de enlace de datos 840<br>
+9.1.4 La subcapa de control de acceso al medio 840<br>
+9.1.5 La capa de red 842<br>
+9.1.6 La capa de transporte 844<br>
+9.1.7 La capa de aplicación 844<br>
+9.1.8 Seguridad en redes 846<br>
+9.2 BIBLIOGRAFÍA EN ORDEN ALFABÉTICO 848</h2> 
+     </div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+     <h4>Aplicación Tres, XGC.</h4>
+   </div>
+   </div>
+ </div>
+ 
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Paso a Paso (Visual C# 2010).</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/libro2_2.jpg',1)"><img src="imagenes/libro2.jpg" width="314" height="283" id="Image2"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información...</h1>
+     <div>
+      <p><a href="https://www.fiuxy.co/ebooks-gratis/3917922-libros-de-programacion-y-varios-descargar-pdf-gratis-mega.html" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-visual-c-2010-paso-a-paso/9788441528246/1805674" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>ÍNDICE  7 <br> INTRODUCCIÓN  21<br> UNA VERSIÓN LARGO TIEMPO ESPERADA  21<br> AQUELLOS DIFÍCILES TIEMPOS DE LA PROGRAMACIÓN EN WINDOWS 22<br> SÓLO PARA LOS ELEGIDOS  22 <br>EL PROYECTO THUNDER 23<br> UN PRODUCTO REVOLUCIONARIO 23<br> EL PASO A OLE Y ODBC 23<br>  PASO A 32 BITS Y ORIENTACIÓN A OBJETO  23<br> ACTIVEX Y ADO  24<br> PROGRAMACIÓN EN INTERNET 24 <br>LOS PROBLEMAS PARA EL DESARROLLO EN LA RED 25<br> EL PANORAMA ACTUAL 25<br> LAS SOLUCIONES APORTADAS POR VB.NET 25<br> EL PRECIO DE LA RENOVACIÓN 25 <br> COMENZAMOS 26<br> LA EVOLUCIÓN HACIA .NET  27 <br>LAS RAZONES DEL CAMBIO 27<br> LA DIFÍCIL DECISIÓN DE ABANDONAR ANTERIORES TECNOLOGÍAS 28<br> LA PROBLEMÁTICA DE WINDOWS DNA 28<br> ASP 28 <br>ADO 28<br>VISUAL BASIC 29<br> CONFLICTOS CON DLL’S  29<br> TRAS LOS PASOS DE COM 29<br> NET FRAMEWORK, NUEVOS CIMIENTOS PARA LA NUEVA GENERACIÓN DE APLICACIONES 31<br> ALGO ESTÁ CAMBIANDO 32<br> NET FRAMEWORK 34 <br>EL CLR, COMMON LANGUAGE RUNTIME 35<br> EL CTS, COMMON TYPE SYSTEM 36<br> ¿Qué es un tipo dentro de .NET Framework? 36<br> Los tipos de datos son objetos 37<br> Categorías de tipos 39<br> La disposición de los datos en la memoria 39 <br>Embalaje y desembalaje de tipos por valor 42 <br>METADATA (METADATOS) 44 <br>SOPORTE MULTI-LENGUAJE 44 <br> EL CLS (COMMON LANGUAGE SPECIFICATION) 45<br> EJECUCIÓN ADMINISTRADA 45 <br>Código administrado46 <br>Datos administrados 46 <br>Recolección de memoria no utilizada 46<br> Recolección de memoria en VB6 y versiones anteriores 47<br> Recolección de memoria en .NET Framework 47<br>  LA EJECUCIÓN DE CÓDIGO DENTRO DEL CLR47 El IL, Intermediate Language 47<br>  Compilación instantánea del IL y ejecución 48 Compilación bajo demanda 49<br>  Independencia de plataforma 50<br>  DOMINIOS DE APLICACIÓN 50<br>  SERVIDORES DE ENTORNO 51<br>  NAMESPACES 52 <br> LA JERARQUÍA DE CLASES DE .NET FRAMEWORK 55<br>  ENSAMBLADOS56<br>  La problemática tradicional de los componentes 57<br>  Ensamblados, una respuesta a los actuales conflictos 57<br>  Tipos de ensamblado según modo de creación57<br>  El contenido de un ensamblado 58<br>  El manifiesto del ensamblado 58 <br> Tipos de ensamblado según contenido59<br>  Tipos de ensamblado según ámbito 61<br>  Ubicación de ensamblados compartidos 61<br>  Identificación mediante claves integradas en el propio ensamblado 62<br>  Versiones de ensamblados 62 <br> Compatibilidad a nivel de versión 63<br>  Ejecución conjunta de ensamblados 63<br>  Ficheros de configuración 64<br>  Localización de ensamblados por parte del CLR 64<br>  Optimización de la carga de ensamblados 65<br>  INSTALACIÓN DE VISUAL STUDIO .NET 67 <br> PREPARACIÓN DEL ENTORNO DE TRABAJO 67<br>  .NET Framework SDK67<br>  Visual Studio .NET67<br>  REQUISITOS HARDWARE 68<br>  SISTEMA OPERATIVO68 <br> RECOMENDACIONES PREVIAS 68<br>  INSTALACIÓN DE VISUAL STUDIO .NET 69 <br> BASES DE DATOS DE EJEMPLO75 <br> LA PRIMERA APLICACIÓN 79 <br> UN HOLA MUNDO DESDE VB.NET79 <br> INICIAR EL IDE DE VS.NET79 <br> CREAR UN NUEVO PROYECTO 81<br>  OBJETOS, PROPIEDADES Y MÉTODOS 82 <br> FORMULARIOS82<br>  EL FORMULARIO COMO UN OBJETO83<br>  ACCESO A LAS PROPIEDADES DE UN FORMULARIO 83 <br>  CONTROLES85<br>  LABEL86 <br> EJECUTANDO LA APLICACIÓN 87<br>  EL CÓDIGO DE LA APLICACIÓN88 <br> DISECCIONANDO EL CÓDIGO FUENTE DEL FORMULARIO 90<br>  La clase del formulario 91<br>  El método constructor New( ) 91 <br> Configuración del formulario y creación de controles 92 <br> Liberación de recursos del formulario  93<br>  ESTRUCTURA Y GRABACIÓN DEL PROYECTO  93 <br> ESCRITURA DE CÓDIGO 95<br>  ESCRIBIR CÓDIGO, EL PAPEL CLÁSICO DEL PROGRAMADOR 95<br>  UN PROGRAMA ESCRIBIENDO SU CÓDIGO 95 <br> CREAR EL PROYECTO 96 <br> UN NUEVO MÓDULO DE CÓDIGO 96<br>  LA UBICACIÓN FÍSICA DEL CÓDIGO 97<br>  COMENTARIOS DE CÓDIGO98<br>  PROCEDIMIENTOS98<br>  EL PUNTO DE ENTRADA AL PROGRAMA 99<br>  LA CLASE MESSAGEBOX 99<br>  CONFIGURAR EL PUNTO DE ENTRADA DEL PROYECTO100<br>  VARIABLES102<br>  INPUTBOX(102<br>  COMPLETANDO EL PROCEDIMIENTO 103<br>  FINALIZAMOS EL PROGRAMA 104<br>  UNA APLICACIÓN CON FUNCIONALIDAD BÁSICA 105<br>  INTEGRANDO LO VISTO HASTA EL MOMENTO 105<br>  UN PROGRAMA MÁS OPERATIVO105<br>  DISEÑO DEL FORMULARIO105<br>  CONTROLES Y EVENTOS108<br>  OTRO MODO DE ESCRIBIR EL CÓDIGO DE UN EVENTO 109<br>  GRABANDO TEXTO EN UN FICHERO110<br>  UNA PUNTUALIZACIÓN SOBRE LOS EVENTOS112<br>  EL ENTORNO DE DESARROLLO INTEGRADO (IDE), DE VISUAL STUDIO .NET 113<br>  EL IDE, UN ELEMENTO A VECES MENOSPRECIADO 113<br>  EL LARGO CAMINO HACIA LA CONVERGENCIA 114<br>  VISUAL STUDIO .NET, EL PRIMER PASO DE LA TOTAL INTEGRACIÓN114<br>  LA PÁGINA DE INICIO 114<br>  PRINCIPALES ELEMENTOS EN NUESTRO ENTORNO DE TRABAJO 116<br>  VENTANA PRINCIPAL DE TRABAJO 117 <br> MANEJO DE VENTANAS ADICIONALES DEL IDE 119<br>  EL EXPLORADOR DE SOLUCIONES124<br>  Agregar nuevos elementos a un proyecto126<br>  Propiedades del proyecto127<br>  Propiedades de la solución 128 <br> Agregar proyectos a una solución128<br>  EL MENÚ CONTEXTUAL 130<br>  EL DISEÑADOR DEL FORMULARIO 130<br>  LA VENTANA DE PROPIEDADES 131<br>  EL IDE DE VISUAL STUDIO .NET. HERRAMIENTAS Y EDITORES 135<br>  EL CUADRO DE HERRAMIENTAS135<br>  Organización en fichas136<br>  Manipulación de fichas 137<br>  Organización de controles 137<br>  Manipulación de controles 139<br>  Agregar controles140<br>  El cuadro de herramientas como contenedor de código fuente 141<br>  LAS BARRAS DE HERRAMIENTAS142<br>  Barras de herramientas personalizadas143<br>  Acople de barras de herramientas 145 <br> OPCIONES ADICIONALES DE PERSONALIZACIÓN 145 <br> VENTANA DE RESULTADOS 146<br>  EL EDITOR DE CÓDIGO FUENTE147<br>  Ajuste de fuente y color 148<br>  Números de línea 149<br>  Búsqueda y sustitución de código 149<br>  Ajuste de línea 151<br>  Dividir el editor de código  152 <br> Marcadores  153<br>  Mostrar espacios en blanco  154 <br> Esquematización154 <br> Regiones 155<br>  Comentarios de código en bloque 156<br>  Ir a la definición de un procedimiento 156<br>  IntelliSense 156<br>  Cambiar a mayúsculas y minúsculas 158<br>  EL IDE DE VISUAL STUDIO .NET. ELEMENTOS COMPLEMENTARIOS Y AYUDA..... 159<br>  EDITORES DE IMÁGENES159<br>  LISTA DE TAREAS 160 <br> Definición de símbolos para tareas161<br>  Creación de tareas 161<br>  Ventana Lista de tareas 162<br>  Eliminación de tareas163<br>  MOSTRAR LA PANTALLA COMPLETA 163<br>  LA VISTA DE CLASES163<br>  EL EXPLORADOR DE OBJETOS 164<br>  MACROS 165<br>  El Explorador de macros 166<br>  Ejecución de macros 167<br> Grabación de macros 167<br>  Manipulación de proyectos de macros 168<br>  El IDE de macros 169 <br> Escritura de macros 170<br>  Macro para comentar líneas de código determinadas 172<br>  EL SISTEMA DE AYUDA173<br>  Ayuda dinámica174 <br> Contenido 175<br> Índice 176<br>  Buscar 177<br>  Ayuda externa 178<br>  Mantener temas de ayuda disponibles 179 <br> Otros modos de acceso a la ayuda 180<br>  APLICACIONES DE CONSOLA 181<br>  CREACIÓN DE UN PROYECTO DE TIPO APLICACIÓN DE CONSOLA181<br>  LA CLASE CONSOLE182<br>  ESCRITURA DE INFORMACIÓN 183<br>  ESCRITURA DE MÚLTIPLES VALORES EN LA MISMA LÍNEA185<br>  LECTURA DE INFORMACIÓN 187<br>  EL LENGUAJE 189<br>  EL LENGUAJE, PRINCIPIO DEL DESARROLLO 189<br>  ESTRUCTURA DE UN PROGRAMA VB.NET 190<br>  MAIN( ) COMO PROCEDIMIENTO DE ENTRADA AL PROGRAMA191<br>  VARIABLES 191<br>  Declaración 191<br>  Denominación 192<br>  Avisos del IDE sobre errores en el código 192<br>  Lugar de la declaración 192<br>  Tipificación193<br>  Declaración múltiple en línea 195<br>  Asignación de valor195<br>  Valor inicial197<br>  Declaración obligatoria 198<br>  Tipificación obligatoria201<br>  ARRAYS, CONCEPTOS BÁSICOS 203<br>  Declaración 203<br>  Asignación y obtención de valores 204<br>  Modificación de tamaño 205<br>  Recorrer un array 206<br>  CONSTANTES 206<br>  CONCEPTOS MÍNIMOS SOBRE DEPURACIÓN208<br>  OPERADORES DEL LENGUAJE 211<br>  ARITMÉTICOS 211<br>  Potenciación: ^ 211<br>  Multiplicación: * 212<br>  División real: / 212 <br> División entera:  \ 213<br>  Resto: Mod 213<br>  Suma: + 213<br>  Resta: 214<br>  CONCATENACIÓN: &, + 215<br>  OPERADORES ABREVIADOS DE ASIGNACIÓN215<br>  Potencia: ^= 215<br>  Multiplicación: *= 216<br>  División real: /=  216<br>  División entera: \= 216<br>  Suma: += 217<br>  Resta: 217<br>  Concatenación: &= 218<br>  COMPARACIÓN 218 <br> Comparación de cadenas 219<br>  La función Asc( ) 220<br>  La función Chr() 221<br>  Comparación de cadenas en base a un patrón. El operador Like 221<br>  Comparación de objetos. El operador Is 224<br>  LÓGICOS Y A NIVEL DE BIT  225<br>  And 225<br>  Uso de paréntesis para mejorar la legibilidad de expresiones 226<br>  Not 227<br>  Or 228<br>  Xor 229<br>  AndAlso 230 <br> OrElse 231 <br> PRIORIDAD DE OPERADORES 231<br>  USO DE PARÉNTESIS PARA ALTERAR LA PRIORIDAD DE OPERADORES 233<br>  RUTINAS DE CÓDIGO 235 <br> DIVISIÓN DE UNA LÍNEA DE CÓDIGO 235<br>  ESCRITURA DE VARIAS SENTENCIAS EN LA MISMA LÍNEA 236<br>  PROCEDIMIENTOS 236<br>  Sintaxis de un procedimiento Sub 237<br>  Llamada a un procedimiento Sub 238 <br> Sintaxis de un procedimiento Function 238<br>  Llamada a un procedimiento Function 240<br>  Paso de parámetros a procedimientos 241<br>  Protocolo de llamada o firma de un procedimiento 241<br>  Tipo de dato de un parámetro 241<br>  Paso de parámetros por valor y por referencia 242<br>  Paso por valor (ByVal) 242 <br> Paso por referencia (ByRef) 243 <br> Paso de parámetros por posición y por nombre 244<br>  Parámetros opcionales245<br>  Array de parámetros 246<br>  Sobrecarga de procedimientos 247<br>  Lista desplegable “Nombre de método”, en el editor de código 251<br>  BIFURCACIÓN Y ÁMBITO DEL CÓDIGO 253<br>  ESTRUCTURAS DE CONTROL 253<br>  Selección 253 <br> If ...End If  253<br>  Select Case ...End Select 257<br>  Repetición 259<br>  While ...End While 259<br>  Do 260<br>  LoopFor ...Next 262<br>  For Each ...Next 264<br>  ORGANIZACIÓN DEL PROYECTO EN FICHEROS Y MÓDULOS DE CÓDIGO 265 <br> Agregar un nuevo módulo (y fichero) de código 266 <br> Crear un nuevo módulo dentro de un fichero existente 267 <br> Cambiar el nombre de un fichero de código 268 <br> Añadir al proyecto un fichero de código existente 269 <br> Lista desplegable “Nombre de clase”, en el editor de código 269 <br> Excluir y eliminar ficheros de código del proyecto 270<br>  REGLAS DE ÁMBITO 271<br>  Ámbito de procedimientos 271<br>  Público 271<br>  Privado 273 <br> Ámbito de variables 274<br>  Ámbito a nivel de procedimiento 274<br>  Ámbito a nivel de bloque 275<br>  Ámbito a nivel de módulo 276<br>  Ámbito a nivel de proyecto 277<br>  PERIODO DE VIDA O DURACIÓN DE LAS VARIABLES 278<br>  VARIABLES STATIC 278<br>  FUNCIONES COMPLEMENTARIAS DEL LENGUAJE 281<br>  CONVENCIONES DE NOTACIÓN 281<br>  FUNCIONES DE COMPROBACIÓN DE TIPOS DE DATOS 283<br>  FUNCIONES DEL LENGUAJE 285<br>  Numéricas 285<br>  Cadena de caracteres 286<br>  Fecha y hora 292<br>  CREAR MÚLTIPLES ENTRADAS AL PROGRAMA MEDIANTE DISTINTOS MAIN( ) 292<br>  PROGRAMACIÓN ORIENTADA A OBJETO (OOP 295<br>  LAS VENTAJAS DE LA PROGRAMACIÓN ORIENTADA A OBJETO 295<br>  DEL ENFOQUE PROCEDURAL AL ENFOQUE ORIENTADO A OBJETO 295<br>  ABORDANDO UN PROBLEMA MEDIANTE PROGRAMACIÓN PROCEDURAL 295 <br> LOS FUNDAMENTOS DE LA PROGRAMACIÓN ORIENTADA A OBJETO 297 <br> OBJETOS 298<br>  CLASES 298<br>  INSTANCIAS DE UNA CLASE 299 <br> CARACTERÍSTICAS BÁSICAS DE UN SISTEMA ORIENTADO A OBJETO 300 <br> Abstracción300<br>  Encapsulación 300 <br> Polimorfismo 301<br>  Herencia 301 <br> JERARQUÍAS DE CLASES 302<br>  RELACIONES ENTRE OBJETOS302<br>  Herencia 302<br>  Pertenencia 303<br>  Utilización 303<br>  REUTILIZACIÓN 303<br>  ANÁLISIS Y DISEÑO ORIENTADO A OBJETOS 303<br>  CREACIÓN DE CLASES 304<br>  ORGANIZACIÓN DE CLASES EN UNO O VARIOS FICHEROS DE CÓDIGO 305<br>  CÓDIGO DE CLASE Y CÓDIGO CLIENTE 306<br>  REGLAS DE ÁMBITO GENERALES PARA CLASES 306<br>  INSTANCIACIÓN DE OBJETOS 306<br>  MIEMBROS DE LA CLASE 307<br>  DEFINIR LA INFORMACIÓN DE LA CLASE 307<br>  CREACIÓN DE CAMPOS PARA LA CLASE 308<br>  CREACIÓN DE PROPIEDADES PARA LA CLASE309<br>  VENTAJAS EN EL USO DE PROPIEDADES 310<br>  ENCAPSULACIÓN A TRAVÉS DE PROPIEDADES 310 <br> PROPIEDADES DE SÓLO LECTURA O SÓLO ESCRITURA 312<br>  PROPIEDADES VIRTUALES 314<br>  NOMBRES DE PROPIEDAD MÁS NATURALES 315<br>  PROPIEDADES PREDETERMINADAS 316<br>  ELIMINACIÓN DE LA PALABRA CLAVE SET PARA ASIGNAR OBJETOS 317<br>  MÉTODOS Y ESPACIOS DE NOMBRE 319 <br> CREACIÓN DE MÉTODOS PARA LA CLASE 319<br>  ¿CUÁNDO CREAR UNA PROPIEDAD Y CUÁNDO UN MÉTODO? 323 <br> LA ESTRUCTURA WITH...END WITH325<br>  RESULTADOS DISTINTOS EN OBJETOS DE LA MISMA CLASE 325<br>  USO DE ME Y MYCLASS PARA LLAMAR A LOS MIEMBROS DE LA PROPIA CLASE 326<br>  SOBRECARGA DE MÉTODOS O POLIMORFISMO, EN UNA MISMA CLASE 327<br>  ENLACE (BINDING) DE VARIABLES A REFERENCIAS DE OBJETOS 329 <br> Enlace temprano 329<br>  Enlace tardío 330<br>  ESPACIOS DE NOMBRES (NAMESPACES) 333<br>  ACCESO A ESPACIOS DE NOMBRE DE OTROS ENSAMBLADOS 337 <br> CONSTRUCTORES Y HERENCIA341<br>  MÉTODOS CONSTRUCTORES 341<br>  HERENCIA 343<br>  TODAS LAS CLASES NECESITAN UNA CLASE BASE 344<br>
+REGLAS DE ÁMBITO ESPECÍFICAS PARA CLASES 345<br>  Protected 346<br>  Friend 347<br>  Protected Friend348<br>  HERENCIA Y SOBRECARGA DE MÉTODOS 348<br>  MYBASE, ACCESO A LOS MÉTODOS DE LA CLASE BASE350<br>  HERENCIA Y SOBRE-ESCRITURA DE MÉTODOS 350 <br> DIFERENCIAS ENTRE SOBRECARGA Y SOBRE-ESCRITURA EN BASE AL TIPO DE ENLACE 353<br>  OCULTAMIENTO DE MIEMBROS DE UNA CLASE 355<br>  COMPORTAMIENTO DE LAS PALABRAS CLAVE ME, MYCLASS Y MYBASE ANTE LA SOBREESCRITURA DE MÉTODOS 359<br>  HERENCIA Y MÉTODOS CONSTRUCTORES 360<br>  CLASES SELLADAS O NO HEREDABLES 362<br>  CLASES ABSTRACTAS O NO INSTANCIABLES 362 <br> ELEMENTOS COMPARTIDOS E INTERFACES 365<br>  COMPROBACIÓN DEL TIPO DE UN OBJETO Y MOLDEADO (CASTING) 365<br>  MIEMBROS COMPARTIDOS (SHARED) DE UNA CLASE 368<br>  DEFINIR UNA CLASE COMO PUNTO DE ENTRADA DE LA APLICACIÓN 370 <br> DESTRUCCIÓN DE OBJETOS Y RECOLECCIÓN DE BASURA 371<br>  INTERFACES 373 <br> ESTRUCTURAS 378<br>  Creación y manipulación de estructuras 378<br>  Estructuras o clases, ¿cuál debemos utilizar? 380 <br> La estructura del sistema DateTime 382<br>  ENUMERACIONES 383<br>  APLICANDO UN ENFOQUE ENTERAMENTE OOP EN EL CÓDIGO 387<br>  LOS TIPOS DE DATOS TAMBIÉN SON OBJETOS 387<br>  MANIPULACIÓN DE CADENAS CON LA CLASE STRING  388<br>  OPTIMIZANDO LA MANIPULACIÓN DE CADENAS CON LA CLASE STRINGBUILDER  393<br>  CONVERSIÓN DE TIPOS CON LA CLASE CONVERT  394<br>  LA ESTRUCTURA CHAR   395<br>  EL TIPO DATE (FECHA)   396<br>  OPERACIONES ARITMÉTICAS, LA CLASE MATH  396<br>  FORMATEO DE VALORES   397 <br> Fechas   398 <br> Modificando el formato estándar para las fechas  400<br>  Números   402<br>  Formateando directamente en la consola   403<br>  Usando la clase String para formatear   403<br>  Usando una clase para crear formatos personalizados  403 <br> DELEGACIÓN DE CÓDIGO Y EVENTOS 407 <br>  DELEGADOS (DELEGATES)   407<br>  DECLARACIÓN DE DELEGADOS   407<br>  CREACIÓN DE DELEGADOS   408 <br> EXTENDER LAS FUNCIONALIDADES DE UNA CLASE A TRAVÉS DE DELEGADOS   411<br>  EVENTOS. ¿QUÉ ES UN EVENTO?   414<br>  EVENTOS EN .NET   414 <br> PROGRAMACIÓN ESTRICTAMENTE PROCEDURAL  414<br>  UN ESCENARIO DE TRABAJO SIN EVENTOS   414<br>  PROGRAMACIÓN BASADA EN EVENTOS  415 <br> ESQUEMA BÁSICO DE UN SISTEMA ORIENTADO A EVENTOS  415<br>  EL EMISOR DE EVENTOS   416<br>  EL RECEPTOR DE EVENTOS   417<br>  CONEXIÓN DE UN EMISOR DE EVENTOS CON UN MANIPULADOR DE EVENTOS  417<br>  ENLACE ESTÁTICO DE EVENTOS   418<br>  ENLACE DINÁMICO DE EVENTOS   420<br>  UN EVENTO ES UN DELEGADO   421<br>  LA CLASE EVENTARGS, O CÓMO OBTENER INFORMACIÓN DEL OBJETO EMISOR DEL EVENTO  422<br>  ARRAYS   427<br>  ASPECTOS BÁSICOS   427<br>  LA CLASE ARRAY   428<br>  ADECUACIÓN DE LOS ARRAYS EN VB CON LOS ARRAYS DE LA PLATAFORMA .NET   428<br>  El primer índice de un array debe ser siempre cero   429<br>  No es posible crear arrays con rangos de índices   429<br>  Todos los arrays son dinámicos   429 <br> DECLARACIÓN  430<br>  ASIGNACIÓN Y OBTENCIÓN DE VALORES   431<br>  RECORRER EL CONTENIDO   431<br>  MODIFICACIÓN DE TAMAÑO  433<br>  USO DEL MÉTODO CREATEINSTANCE( ) PARA ESTABLECER EL NÚMERO DE ELEMENTOS EN UN ARRAY   434 <br> PASO DE ARRAYS COMO PARÁMETROS, Y DEVOLUCIÓN DESDE FUNCIONES  435<br>  CLONACIÓN   435<br>  COPIA  436 INICIALIZACIÓN DE VALORES   437 <br> ORDENACIÓN  439<br>  BÚSQUEDA  439 <br> ARRAYS MULTIDIMENSIONALES   440<br>  COLECCIONES   443<br>  COLECCIONES, LA ESPECIALIZACIÓN DE LOS ARRAYS  443<br> EL ESPACIO DE NOMBRES SYSTEM.COLLECTIONS   444<br>  LA CLAVE SE HALLA EN LOS INTERFACES   444<br>  LA CLASE ARRAYLIST 445<br>  Instanciación de objetos ArrayList  445 Agregar valores a un ArrayList  445<br>  Recorrer y obtener valores de un ArrayList  446<br>  Capacidad y valores en una colección ArrayList  447<br>  Obtención de subarrays a partir de un objeto ArrayList   449<br>  Búsquedas en colecciones ArrayList   451<br>  Borrado de elementos en una colección ArrayList   451<br>  Ordenar elementos en un objeto ArrayList   453<br>  LA CLASE HASHTABLE   453 <br> Manejo básico de colecciones Hashtable 453<br>  Operaciones varias con colecciones Hashtable  455<br>  Traspaso de elementos desde una colección Hashtable a un array básico   457<br>  LA CLASE SORTEDLIST  458<br>  LA CLASE QUEUE  459<br>  Manipulación de valores en una colección Queue  459<br>  LA CLASE STACK   462<br>  COLECCIONES PERSONALIZADAS  465<br>  CUANDO EL TIPO DE ARRAY QUE NECESITAMOS NO EXISTE   465<br>  UTILIZANDO LA HERENCIA PARA CREAR UNA NUEVA COLECCIÓN   465<br>  IMPLEMENTANDO UN INTERFAZ PARA CREAR UNA NUEVA COLECCIÓN   467<br>  MANIPULACIÓN DE ERRORES  473<br>  ERRORES, ESE MAL COMÚN  473<br>  Errores de escritura   473<br>  Errores de ejecución   474<br>  Errores lógicos   474<br>  ERRORES Y EXCEPCIONES  474<br>  MANIPULADORES DE EXCEPCIONES   475 TIPOS DE TRATAMIENTO DE ERROR EN VB.NET   475<br>  MANIPULACIÓN ESTRUCTURADA DE ERRORES   475<br>  La estructura Try...End Try  475<br>  La clase Exception  478<br>  Captura de excepciones de diferente tipo en el mismo controlador de errores  479 <br> Establecer una condición para un manipulador de excepciones   480<br>  La influencia del orden de los manipuladores de excepciones   482<br>  Forzar la salida de un controlador de errores mediante Exit Try   483<br>  Creación de excepciones personalizadas   484<br>  MANIPULACIÓN NO ESTRUCTURADA DE ERRORES  486 <br> El objeto Err  486<br>  On Error   486<br>  On Error Goto Etiqueta   486<br>  On Error Resume Next   487<br>  Creación de errores con el objeto Err   488<br>  On Error Goto 0   488<br>  OPERACIONES DE ENTRADA Y SALIDA (I/O). GESTIÓN DEL SISTEMA DE ARCHIVOS   491<br>  LA REMODELACIÓN DEL VIEJO ESQUEMA DE ENTRADA Y SALIDA   491 <br> SYSTEM.IO, EL PUNTO DE PARTIDA  491 <br> OBJETOS STREAM  492 <br> LAS CLASES TEXTREADER Y TEXTWRITER   492<br>  LA CLASE STREAMWRITER   492 <br> LA CLASE STREAMREADER  494<br>  LAS CLASES STRINGWRITER Y STRINGREADER   496<br>  LA CLASE STREAM (FLUJO DE DATOS)   496<br>  LA CLASE FILESTREAM   496<br>  MANEJO DE DATOS BINARIOS  498<br>  MANIPULACIÓN DE ARCHIVOS MEDIANTE FILE Y FILEINFO   498 <br>  MANIPULACIÓN DE ARCHIVOS MEDIANTE DIRECTORY Y DIRECTORYINFO   500<br>  LA CLASE PATH   502 <br> MONITORIZACIÓN DEL SISTEMA DE ARCHIVOS CON FILESYSTEMWATCHER   503<br>  Ajuste preciso de filtros para el monitor de archivos   505<br>  Establecer el procedimiento de evento con AddHandler   505<br>  Consideraciones sobre la ruta de archivos   506<br>  DETECCIÓN CON ESPERA, DE EVENTOS PRODUCIDOS SOBRE ARCHIVOS  507<br>  MANIPULACIÓN DE ARCHIVOS MEDIANTE FUNCIONES ESPECÍFICAS DE VISUAL BASIC   507<br>  FORMULARIOS WINDOWS 509<br>  INTERFACES DE VENTANA. FORMULARIOS Y CONTROLES   509<br>  SYSTEM.WINDOWS.FORMS   510<br>  LA CLASE FORM   510<br>  CREACIÓN DE UN FORMULARIO BÁSICO  510<br>  EL CÓDIGO DEL FORMULARIO   512<br>  CAMBIANDO EL NOMBRE DEL FORMULARIO   513<br>  CREACIÓN DE FORMULARIOS DESDE CÓDIGO   514<br>  INICIAR EL FORMULARIO DESDE MAIN( )   515 <br> TRABAJO CON CONTROLES  517 <br> EL CUADRO DE HERRAMIENTAS  517 <br> INSERTAR UN CONTROL EN EL FORMULARIO  518<br>  AJUSTE DE LA CUADRÍCULA DE DISEÑO DEL FORMULARIO  519<br>  ORGANIZACIÓN-FORMATO MÚLTIPLE DE CONTROLES  520<br>  ANCLAJE DE CONTROLES  522<br>  ACOPLE DE CONTROLES   523<br>  CONTROLES WINDOWS   525<br>  CONTROLES MÁS HABITUALES  525<br>  BUTTON   526<br>  CODIFICACIÓN DE LOS EVENTOS DE CONTROLES  527<br>  CODIFICANDO OTROS EVENTOS DE UN CONTROL  528 <br> ESCRITURA DEL MANIPULADOR DE EVENTO SIN USAR EL NOMBRE PROPORCIONADO POR EL EDITOR RESPONDIENDO A LOS EVENTOS DE UN FORMULARIO   530 <br> LABEL  531 <br> FOCO DE ENTRADA   532 <br> TEXTBOX  532 <br> ORDEN DE TABULACIÓN DE CONTROLES  535 <br> SELECCIÓN DE TEXTO EN UN TEXTBOX   535<br>  CHECKBOX  538<br>  RADIOBUTTON Y GROUPBOX   540<br>  LISTBOX   542<br>  COMBOBOX   547 CODIFICACIÓN AVANZADA DE CONTROLES Y HERENCIA VISUAL   549<br>  COMPARTIENDO CÓDIGO ENTRE CONTROLES  549<br>  CREACIÓN DE CONTROLES DESDE CÓDIGO  553<br>  Código para el interfaz de usuario  553<br>  Código para eventos del formulario, conectando con Handles   555<br>  Código para eventos de controles, conectando con Handles  555<br>  Código para eventos de controles, conectando con AddHandler   556<br>  Código para eventos de controles, asociando y separando dinámicamente con AddHandler y RemoveHandler   557<br>  RECORRIENDO LOS CONTROLES DE UN FORMULARIO   559<br>  TEMPORIZADORES   560<br>  CREAR UNA CLASE DERIVADA DE UN CONTROL  563<br>  HERENCIA VISUAL   565<br>  El formulario base  566<br>  Agregar un proyecto con un formulario derivado   567<br>  Crear un formulario heredado desde un proyecto independiente  570<br>  MENÚS   575<br>  CONTROLES DE TIPO MENÚ   575<br>  Menú Principal. MainMenu   575<br>  Menú Contextual. ContextMenu  580 <br> Creación de menús desde código   582 <br> PROGRAMACIÓN CON HEBRAS   585<br>  MANIPULACIÓN DE HEBRAS DE EJECUCIÓN   585<br>  LA CLASE THREAD   586<br>  EJECUTAR UN PROCESO EN UNA HEBRA   586<br>  CONTROL DE PROCESOS INDEFINIDOS  588<br>  EJECUCIÓN MULTIHEBRA   590<br>  EJECUCIÓN MULTIHEBRA DE MÚLTIPLES PROCESOS   591<br>  DETECTANDO EL ESTADO DE FINALIZACIÓN  593<br>  EJECUCIÓN PARALELA DE PROCESOS A DISTINTOS RITMOS   594<br>  SINCRONIZACIÓN DE HEBRAS  596<br>  CREAR UN PROCESO DE MONITORIZACIÓN  597<br>  INICIOS DE APLICACIÓN CON DOS FORMULARIOS, EMPLEANDO HEBRAS  599 <br> FORMULARIOS DE INTERFAZ MÚLTIPLE (MDI)   601<br>  APLICACIONES DE ESTILO SDI   601<br>  APLICACIONES DE ESTILO MDI   601<br>  CREACIÓN DE MENÚS DE TIPO VENTANA, EN FORMULARIOS MDI   604<br>  BLOQUEO DE OPCIONES DE MENÚ EN FORMULARIOS MDI   606<br>  RECORRER LOS FORMULARIOS HIJOS DE UN MDI   607<br>  COMPORTAMIENTO NO MODAL (MODELESS) DE FORMULARIOS   608<br>  COMPORTAMIENTO MODAL DE FORMULARIOS  608<br>  CONTROLES DE CUADROS DE DIÁLOGO DEL SISTEMA  611<br>  ColorDialog   611<br>  FontDialog   612<br>  SaveFileDialog  614 <br> OpenFileDialog  615<br>  FORMULARIOS DEPENDIENTES Y CONTROLES AVANZADOS   617<br>  FORMULARIOS DEPENDIENTES Y FIJOS EN PRIMER PLANO   617<br>  VALIDACIÓN DE CONTROLES  626<br>  CONTROLES AVANZADOS   627 <br> IMAGELIST  628<br>  TOOLBAR  629<br>  STATUSBAR  631<br>  DATETIMEPICKER   633<br>  NUMERICUPDOWN  634<br>  DOMAINUPDOWN  635<br>  MONTHCALENDAR   635<br>  LINKLABEL  636<br>  CREACIÓN Y MANIPULACIÓN DE ELEMENTOS EN EJECUCIÓN   637<br>  NOTIFYICON   638<br>  GDI+. ACCESO AL SUBSISTEMA GRÁFICO DE WINDOWS   641<br>  SYSTEM.DRAWING   642 <br> DIBUJO CON LAS CLASES GRAPHICS Y PEN   642<br>  LA CLASE BRUSH  646<br>  DIBUJO DE TEXTO EN EL FORMULARIO  649<br>  PERSONALIZACIÓN DE LA IMAGEN DE FONDO DEL FORMULARIO   650<br>  Manipulación de los eventos de pintado en la clase Form   650<br>  Empleo del control PictureBox   651<br>  MANIPULANDO EL GRADO DE OPACIDAD DEL FORMULARIO   652 <br> MODIFICACIÓN DE LA FORMA DEL FORMULARIO  655<br>  INTEGRANDO ELEMENTOS. UN VISUALIZADOR DE GRÁFICOS  656<br>  ACCESO A DATOS CON ADO .NET  663<br>  COMPARATIVA DE ADO /ADO .NET   664<br>  BENEFICIOS DE ADO .NET   666<br>  Interoperabilidad  666<br>  Mantenimiento  666<br>  Programación  666<br>  Rendimiento  667<br>  Escalabilidad  667<br>  ARQUITECTURA DE DATOS DESCONECTADOS   667<br>  DataSet   669<br>  ADO .NET y XML  669 <br> UNA VISIÓN GENERAL DE ADO .NET   670<br>  ESPACIOS DE NOMBRES Y CLASES EN ADO .NET   671<br>  LAS CLASES CONNECTION  673<br>  LAS CLASES COMMAND  676<br>  LAS CLASES DATAREADER   680<br>  CONJUNTOS DE DATOS Y ENLACE (DATA BINDING)   683<br>  LA CLASE DATASET   683<br>  LAS CLASES DATAADAPTER   686<br>  NAVEGACIÓN Y EDICIÓN DE REGISTROS EN MODO DESCONECTADO   689<br>  DATA BINDING. ENLACE DE DATOS A CONTROLES  694<br>  Tipos de Data Binding  694<br>  Elementos integrantes en un proceso de Data Binding  694<br>  EMPLEO DE DATA BINDING SIMPLE PARA NAVEGAR Y EDITAR DATOS   694<br>  EL CONTROL DATAGRID, RELACIONES Y VISTAS   701<br>  DATAGRID  701<br>  CREACIÓN DE UN DATAGRID A TRAVÉS DE LOS ASISTENTES DEL IDE   703<br>  CONFIGURAR LAS PROPIEDADES DEL DATAGRID 708<br>  CONFIGURAR POR CÓDIGO LAS PROPIEDADES DEL DATAGRID 708<br>  SELECCIÓN DE TABLA EN EL DATAGRID 710<br>  RELACIONES ENTRE TABLAS MEDIANTE OBJETOS DATARELATION 711<br>  Obtener tablas relacionadas mediante código 711<br>  Visualizar datos relacionados en modo maestro-detalle en un DataGrid 713<br>  Mostrar una relación maestro-detalle en dos DataGrid 714<br>  RELACIÓN MAESTRO-DETALLE EN MÚLTIPLES DATAGRID 715<br>  VISTAS Y ORDENACIÓN DE DATOS CON LA CLASE DATAVIEW 716<br>  VISTAS POR CÓDIGO Y DEFAULTVIEW 717 <br> FILTROS CON OBJETOS DATAVIEW 718<br>  BÚSQUEDAS CON DATAVIEW 720<br>  ORDENACIÓN DE FILAS MEDIANTE DATAVIEW 721<br>  OBTENER EL ESQUEMA DE UN DATASET723
+</h2></div>
+      </div>
+      
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicación Tres, XGC.</h4>
+    </div>
+     </div>
+  
+   
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Programación Avanzada (SQL Server 2005).</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/libro3_3.jpg',1)"><img src="imagenes/libro3.jpg" width="402" height="191" id="Image12"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información...</h1>
+     <div>
+      <p><a href="http://lavinda.net/pdf/programacion-avanzada-con-sql-server-2005-advance-programming-sql-server-2005-djvu.html" target="_self">Clic para Descargar.</a><br><br><a href="https://www.casadellibro.com/libro-programacion-avanzada-con-sql-server-2005/9789701058930/1157586" target="_self">Click para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>1.	Instalación <BR>
+1.1.	Introducción<BR>
+1.2.	Ediciones de SQL Server 2005<BR>
+1.3.	Requerimientos mínimos<BR>
+1.3.1.	Requisitos hardware<BR>
+Requisitos software<BR>
+1.4.	Instalación de SQL Server 2005<BR>
+1.4.1.	Antes de empezar<BR>
+1.4.2.	Inicio del proceso<BR>
+1.4.3.	Instancias con nombre<BR>
+1.4.4.	Configuración de servidor<BR>
+1.4.5.	Configuración de otros servicios<BR>
+1.4.6.	Conclusión del proceso de instalación<BR><BR> 
+2.	Administración básica<BR>
+2.1.	Introducción<BR>
+2.2.	Herramientas de administración<BR>
+2.2.1.	El SQL Server Configuration Manager <BR>Servicios disponibles<BR>
+Alterar el estado de un servicio<BR> Modo de inicio automático <BR>Inicio del Agente SQL Server<BR>
+2.2.2.	El SQL Server Management Studio<BR>  Grupos y servidores<BR>
+Carpetas de un servidor<BR> Asistentes para todo<BR>
+2.3.	Tareas comunes<BR>
+2.3.1.	Creación de una estructura de grupos<BR>
+2.3.2.	Registro de servidores<BR>
+2.3.3.	Actuar sobre un servidor<BR>
+2.3.4.	Administración de la seguridad<BR>Usuarios y grupos de usuarios<BR> Inicios de sesión en SQL Server<BR>
+Funciones del servidor y de bases de datos<BR>
+2.4. Resumen<BR><BR>
+
+3.	Bases de datos<BR>
+3.1.	Introducción<BR>
+3.2.	¿Qué es una base de datos? <BR>
+3.3.	Estructura física de una base de datos<BR>
+3.3.1.	Nombres de archivo<BR>
+3.3.2.	Crecimiento de la base de datos<BR>
+3.4.	Estructura lógica de una base de datos<BR>
+3.4.1.	Tablas<BR>
+3.4.2.	Índices<BR>
+3.4.3.	Vistas<BR>
+3.4.4.	Procedimientos almacenados<BR>
+3.4.5.	Otros elementos lógicos<BR>
+3.5.	Orden de intercalación<BR>
+3.6.	Creación de una base de datos<BR>
+3.6.1.	Inicio del proceso<BR>
+3.6.2.	Nombre y archivos de datos<BR>
+3.6.3.	Configuración de archivos de datos y transacciones<BR>
+3.7.	Propiedades de la base de datos<BR>
+3.7.1.	Definir nuevos usuarios<BR>
+3.7.2.	Funciones definidas por el usuario<BR>
+3.8. Resumen<BR><BR>
+
+4.	Planificación y diseño<BR>
+4.1.	Introducción<BR>
+4.2.	Identificación de necesidades<BR>
+4.2.1.	Necesidades de nuestra librería<BR>
+4.3.	Planificación de la base de datos<BR>
+4.3.1.	Propiedades de cada entidad<BR>
+4.3.2.	Búsqueda de dependencias<BR>
+4.4.	Normalización de la base de datos<BR>
+4.4.1.	Tablas con claves únicas<BR>
+4.4.2.	Evitar duplicación de datos<BR>
+4.4.3.	Otras normas<BR>
+</h2></div>
+      </div>
+      
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicación Tres, XGC.</h4>
+    </div>
+    </div>
+  
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Sistemas Operativos.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/libro4_4.jpg',1)"><img src="imagenes/libro4.jpg" width="374" height="248" id="Image4"></a>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información...</h1>
+     <div>
+      <p><a href="http://www.pedrobeltrancanessa.com/Sistemas_OperativosLibro__Una_Vision_Aplicada__Carretero_Jess.pdf" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-sistemas-operativos-2-ed/9788448156435/1138038" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>1 Conceptos arquitectónicos del computador 9<BR> 1.1. Estructura y funcionamiento del computador 10<BR>  1.2. Modelo de programación del computador 12<BR>  1.2.1. Modos de ejecución 12<BR>  1.2.2. Secuencia de funcionamiento del procesador 13<BR>  1.2.3. Registros de control y estado 14<BR>  1.3. Interrupciones 14 <BR> 1.4. El reloj 17<BR>  1.5. Jerarquía de memoria 17 <BR> 1.5.1. Memoria cache y memoria virtual 18<BR>  1.6. Entrada/Salida 20<BR>  1.6.1. Características de la entrada/salida 20<BR>  1.6.2. Periféricos 20<BR>  1.6.3. Periféricos más importantes 22<BR>  1.6.4. E/S y concurrencia 23<BR>  1.6.5. Buses y direccionamiento 25<BR>  1.7. Protección 25 <BR> 1.7.1. Mecanismo de protección del procesador 26<BR>  1.7.2. Mecanismos de protección de memoria 26<BR>  1.7.3. Protección de entrada/salida 27<BR>  1.8. Multiprocesador y multicomputador 27 <BR> 1.9. Prestaciones 29<BR>  1.10. Lecturas recomendadas 30 <BR> 1.11. Ejercicios 30<BR>  2 Introducción a los sistemas operativos 31<BR>  2.1. ¿Qué es un sistema operativo?  32<BR>  2.1.1. Sistema operativo 32<BR>  2.1.2. Concepto de usuario y de grupo de usuarios 35<BR>  2.1.3. Concepto de proceso y multitarea 35<BR>  2.2. Arranque y parada del sistema 36<BR>  2.2.1. Arranque hardware 37<BR>  2.2.2. Arranque del sistema operativo 37<BR>  2.2.3. Parada del computador 38<BR>  2.3. Activación del sistema operativo 38<BR>  2.3.1. Servicios del sistema operativo y funciones de llamada 39<BR>  2.4. Tipos de sistemas operativos 42<BR>  2.5. Componentes del sistema operativo 43<BR>  2.5.1. Gestión de procesos 44<BR>  2.5.2. Gestión de memoria 45<BR>  2.5.3. Comunicación y sincronización entre procesos 46<BR>  2.5.4. Gestión de la E/S 47<BR>  2.5.5. Gestión de ficheros y directorios 47<BR>  2.6. Seguridad y protección 51<BR>  2.7. Interfaz de programación 52<BR>  2.7.1. Single UNIX Specification 52<BR>  2.7.2. Windows 53<BR>  3 4 Sistemas operativos 2.8. Interfaz de usuario del sistema operativo 53<BR>  2.8.1. Funciones de la interfaz de usuario 54<BR>  2.8.2. Interfaces alfanuméricas 54<BR>  2.8.3. Interfaces gráficas 55<BR>  2.8.4. Ficheros de mandatos o shell-scripts 56<BR>  2.9. Diseño de los sistemas operativos 59 <BR> 2.9.1. Estructura del sistema operativo 59<BR>  2.9.2. Carga dinámica de módulos 62<BR>  2.9.3. Prestaciones y fiabilidad 62<BR>  2.9.4. Diseño del intérprete de mandatos 63 <BR> 2.10. Historia de los sistemas operativos 64<BR>  2.11. Lecturas recomendadas 69<BR>  2.12. Ejercicios 69 3 Procesos 71<BR>  3.1. Concepto de Proceso 72<BR>  3.2. Multitarea 73<BR>  3.2.1. Base de la multitarea 73<BR>  3.2.2. Ventajas de la multitarea 74<BR>  3.3. Información del proceso 75 <BR> 3.3.1. Estado del procesador 76<BR>  3.3.2. Imagen de memoria del proceso 76<BR>  3.3.3. Información del bloque de control de proceso (BCP) 78 <BR> 3.3.4. Información del proceso fuera del BCP 79<BR>  3.4. Vida de un proceso 79<BR>  3.4.1. Creación del proceso 79<BR>  3.4.2. Interrupción del proceso 80<BR>  3.4.3. Activación del proceso 80<BR>  3.4.4. Terminación del proceso 81<BR>  3.4.5. Estados básicos del proceso 81 <BR> 3.4.6. Estados de espera y suspendido 82 <BR> 3.4.7. Cambio de contexto 82<BR>  3.4.8. Privilegios del proceso UNIX 83<BR>  3.5. Señales y excepciones 83<BR>  3.5.1. Señales UNIX 83<BR>  3.5.2. Excepciones Windows 85<BR>  3.6. Temporizadores 85<BR>  3.7. Procesos especiales 86<BR>  3.7.1. Proceso servidor 86<BR>  3.7.2. Demonio 87<BR>  3.7.3. Proceso de usuario y proceso de núcleo 87<BR>  3.8. Threads 88<BR>  3.8.1. Gestión de los threads 89<BR>  3.8.2. Creación, ejecución y terminación de threads 90<BR>  3.8.3. Estados de un thread 90<BR>  3.8.4. Paralelismo con threads 90<BR>  3.8.5. Diseño con threads 91<BR>  3.9. Aspectos de diseño del sistema operativo 92<BR>  3.9.1. Núcleo con ejecución independiente 92<BR>  3.9.2. Núcleo con ejecución dentro de los procesos de usuario 93<BR>  3.10. Tratamiento de interrupciones 95<BR>  3.10.1. Interrupciones y expulsión 95<BR>  3.10.2. Detalle del tratamiento de interrupciones 98<BR>  3.10.3. Llamadas al sistema operativo 101<BR>  3.10.4. Cambios de contexto voluntario e involuntario 103 <BR> 3.11. Tablas del sistema operativo 103<BR>  3.12. Planificación del procesador 104<BR>  3.12.1. Objetivos de la planificación 105<BR>  3.12.2. Niveles de planificación de procesos 106<BR>  3.12.3. Puntos de activación del planificador 107<BR>  3.12.4. Algoritmos de planificación 107<BR>  3.12.5. Planificación en multiprocesadores 109<BR>  3.13. Servicios 110<BR>  3.13.1. Servicios UNIX para la gestión de procesos 110<BR>  3.13.2. Servicios UNIX de gestión de threads 122<BR>  3.13.3. Servicios UNIX para gestión de señales y temporizadores 125<BR> Contenido 5 3.13.4. Servicios UNIX de planificación 129<BR>  3.13.5. Servicios Windows para la gestión de procesos 132<BR>  3.13.6. Servicios Windows para la gestión de threads 136<BR>  3.13.7. Servicios Windows para el manejo de excepciones 137<BR>  3.13.8. Servicios Windows de gestión de temporizadores 139 <BR> 3.13.9. Servicios Windows de planificación 139<BR>  3.14. Lecturas recomendadas 141<BR>  3.15. Ejercicios 141 4 Gestión de memoria 143<BR>  4.1. Introducción 144 4.2. Jerarquía de memoria 145<BR>  4.2.1. Migración de la información 146<BR>  4.2.2. Parámetros característicos de la jerarquía de memoria 146<BR>  4.2.3. Coherencia 147<BR>  4.2.4. Direccionamiento 147<BR>  4.2.5. La proximidad referencial 148<BR>  4.2.6. Concepto de memoria cache 149<BR>  4.2.7. Concepto de memoria virtual y memoria real 149<BR>  4.2.8. La tabla de páginas 151<BR>  4.2.9. Unidad de gestión de memoria (MMU 154<BR>  4.3. Niveles de gestión de memoria 156<BR>  4.3.1. Operaciones en el nivel de procesos 156<BR>  4.3.2. Operaciones en el nivel de regiones 156<BR>  4.3.3. Operaciones en el nivel de datos dinámicos 157<BR>  4.4. Esquemas de gestión de la memoria del sistema 157<BR>  4.4.1. Asignación contigua 158<BR> 4.4.2. Segmentación 159 <BR> 4.4.3. Memoria virtual. Paginación 160 <BR> 4.4.4. Segmentación paginada 162 <BR> 4.5. Ciclo de vida de un programa 163<BR>  4.6. Creación de la imagen de memoria del proceso 166<BR>  4.6.1. El fichero ejecutable 166<BR>  4.6.2. Creación de la imagen de memoria. Montaje estático 167<BR>  4.6.3. Creación de la imagen de memoria. Montaje dinámico 167<BR>  4.6.4. El problema de la reubicación 168<BR>  4.6.5. Fichero proyectado en memoria 169<BR>  4.6.6. Ciclo de vida de las páginas de un proceso 170<BR>  4.6.7. Técnica de copy on write (COW 171<BR>  4.6.8. Copia por asignación 171<BR>  4.6.9. Ejemplo de imagen de memoria 171<BR>  4.7. Necesidades de memoria de un proceso 173<BR>  4.8. Utilización de datos dinámicos 177<BR>  4.8.1. Utilización de memoria en bruto 177<BR>  4.8.2. Errores frecuentes en el manejo de memoria dinámica 178<BR>  4.8.3. Alineación de datos. Tamaño de estructuras de datos 180<BR>  4.8.4. Crecimiento del heap 181<BR>  4.9. Técnicas de asignación dinámica de memoria 181<BR>  4.9.1. Particiones fijas 181<BR>  4.9.2. Particiones variables 182<BR>  4.9.3. Sistema buddy binario 184<BR>  4.10. Aspectos de diseño de la memoria virtual 184<BR>  4.10.1. Tabla de páginas 184<BR>  4.10.2. Políticas de administración de la memoria virtual 187<BR>  4.10.3. Política de localización 187<BR>  4.10.4. Política de extracción 187<BR>  4.10.5. Política de ubicación 188 <BR> 4.10.6. Política de reemplazo 188<BR>  4.10.7. Política de actualización 191<BR>  4.10.8. Política de reparto de espacio entre los procesos 191<BR>  4.10.9. Gestión del espacio de swap 193<BR>  4.11. Servicios de gestión de memoria 194<BR>  4.11.1. Servicios UNIX de proyección de ficheros 194<BR>  4.11.2. Servicios UNIX de carga de bibliotecas 196<BR>  4.11.3. Servicios UNIX para bloquear páginas en memoria principal 198 <BR> 4.11.4. Servicios Windows de proyección de ficheros 198<BR>  6 Sistemas operativos 4.11.5. Servicios Windows de carga de bibliotecas 200<BR>  4.11.6. Servicios Windows para bloquear páginas en memoria principal 201<BR>  4.12. Lecturas recomendadas 201 <BR> 4.13. Ejercicios 202 5 E/S y Sistema de ficheros 205<BR>  5.1. Introducción 206 5.2. Nombrado de los dispositivos 207<BR>  5.3. Manejadores de dispositivos 207<BR>  5.4. Servicios de E/S bloqueantes y no bloqueantes 208<BR>  5.5. Consideraciones de diseño de la E/S 209<BR>  5.5.1. El manejador del terminal 210<BR>  5.5.2. Almacenamiento secundario 211<BR>  <BR> 5.5.3. Gestión de reloj 216<BR>  5.5.4. Ahorro de energía 217 <BR> 5.6. Concepto de fichero 217<BR>  5.6.1. Visión lógica del fichero 217<BR>  5.6.2. Unidades de información del disco 218<BR>  5.6.3. Otros tipos de ficheros 219<BR>  5.6.4. Metainformación del fichero 219<BR>  5.7. Directorios 221<BR>  5.7.1. Directorio de trabajo o actual 222<BR>  5.7.2. Nombrado de ficheros y directorios 222 <BR> 5.7.3. Implementación de los directorios 222<BR>  5.7.4. Enlaces 223<BR>  5.8. Sistema de ficheros 224<BR>  5.8.1. Gestión del espacio libre 226 <BR> 5.9. Servidor de ficheros 226<BR>  5.9.1. Vida de un fichero 227<BR>  5.9.2. Descriptores de fichero 228 <BR> 5.9.3. Semántica de coutilización 229<BR>  5.9.4. Servicio de apertura de fichero 230<BR>  5.9.5. Servicio de duplicar un descriptor de fichero 233<BR>  5.9.6. Servicio de creación de un fichero 233<BR>  5.9.7. Servicio de lectura de un fichero 233<BR>  5.9.8. Servicio de escritura de un fichero 234<BR>  5.9.9. Servicio de cierre de fichero 234 <BR> 5.9.10. Servicio de posicionar el puntero del fichero 235 <BR> 5.9.11. Servicios sobre directorios 236 <BR> 5.9.12. Servicios sobre atributos 237<BR>  5.10. Protección 237 5.10.1. Listas de control de accesos ACL (Access Control List) 237<BR>  5.10.2. Listas de Control de Acceso en UNIX 237<BR>  5.10.3. Listas de Control de Acceso en Windows 238<BR>  5.10.4. Servicios de seguridad 239 <BR> 5.10.5. Clasificaciones de seguridad 240<BR>  5.11. Montado de sistemas de ficheros 240<BR>  5.12. Consideraciones de diseño del servidor de ficheros 242 <BR> 5.12.1. Consistencia del sistema de ficheros y journaling 242<BR>  5.12.2. Journaling 243 <BR> 5.12.3. Memoria cache de E/S 243<BR>  5.12.4. Servidor de ficheros virtual 245<BR>  5.12.5. Ficheros contiguos ISO-9660 247<BR>  5.12.6. Ficheros enlazados FAT 248 <BR> 5.12.7. Sistemas de ficheros UNIX 250 <BR> 5.12.8. NTFS 253<BR>  5.12.9. Copias de respaldo 256<BR>  5.13. Sistemas de ficheros distribuidos 257<BR>  5.13.1. Nombrado 257<BR>  5.13.2. Métodos de acceso 258<BR>  5.13.3. NFS 258<BR> 5.13.4. CIFS 260<BR>  5.13.5. Empleo de paralelismo en el sistema de ficheros 260<BR>  5.14. Ficheros de inicio sesión en Linux 261<BR>  5.15. Servicios de E/S 262<BR>  5.15.1. Servicios de entrada/salida en UNIX 262<BR>  Contenido 7 5.15.2. Servicios de entrada/salida en Windows 265<BR>  5.16. Servicios de ficheros y directorios 268<BR>  5.16.1. Servicios UNIX para ficheros 268<BR>  5.16.2. Ejemplo de uso de servicios UNIX para ficheros 272<BR>  5.16.3. Servicios Windows para ficheros 278<BR>  5.16.4. Ejemplo de uso de servicios Windows para ficheros 280<BR>  5.16.5. Servicios UNIX de directorios 281<BR> 5.16.6. Ejemplo de uso de servicios UNIX para directorios 284<BR>  5.16.7. Servicios Windows para directorios 286<BR>  5.16.8. Ejemplo de uso de servicios Windows para directorios 286<BR>  5.17. Servicios de protección y seguridad 287<BR>  5.17.1. Servicios UNIX de protección y seguridad 288<BR>  5.17.2. Ejemplo de uso de los servicios de protección de UNIX 289<BR>  5.17.3. Servicios Windows de protección y seguridad 291<BR>  5.17.4. Ejemplo de uso de los servicios de protección de Windows 292<BR>  5.18. Lecturas recomendadas 294<BR>  5.19. Ejercicios 294<BR>  6 Comunicación y sincronización de procesos 299<BR>  6.1. Concurrencia 300<BR>  6.1.1. Ventajas de la concurrencia 301<BR>  6.1.2. Tipos de procesos concurrentes 301 1.1.2. Tipos de recursos compartidos 302<BR>  6.1.3. Recursos compartidos y coordinación 302 <BR> 6.1.4. Resumen de los conceptos principales 302<BR>  6.2. Concepto de atomicidad 303<BR>  6.3. Problemas que plantea la concurrencia 303<BR>  6.3.1. Condiciones de carrera 303<BR>  6.3.2. Sincronización 305<BR>  6.3.3. La sección crítica 305<BR>  6.3.4. Interbloqueo 306<BR>  6.4. Diseño de aplicaciones concurrentes 308<BR>  6.4.1. Pasos de diseño 308<BR>  6.4.2. Esquemas de acceso a recursos compartidos 309<BR>  6.5. Modelos de comunicación y sincronización 310<BR>  6.5.1. Productor-consumidor. Modela comunicación 310 <BR> 6.5.2. Lectores-escritores. Modela acceso a recurso compartido 311<BR>  6.5.3. Filósofos comensales. Modela el acceso a recursos limitados 312<BR>  6.5.4. Modelo cliente-servidor 312<BR>  6.5.5. Modelo de comunicación entre pares “Peer-to-peer” (P2P) 313<BR>  6.6. Mecanismos de comunicación 313<BR>  6.6.1. Comunicación remota: Formato de red 315<BR>  6.6.2. Memoria compartida 315<BR>  6.6.3. Comunicación mediante ficheros 316<BR>  6.6.4. Tubería o pipe 316<BR>  6.6.5. Sockets. Comunicación remota 318<BR>  6.7. Mecanismos de sincronización 320<BR>  6.7.1. Sincronización mediante señales 320 <BR> 6.7.2. Semáforos 320<BR>  6.7.3. Mutex y variables condicionales 321<BR>  6.7.4. Cerrojos sobre ficheros 324 <BR> 6.7.5. Paso de mensajes 325<BR>  6.7.6. Empleo más adecuado de los mecanismos de comunicación y sincronización 329<BR>  6.8. Transacciones 329<BR>  6.8.1. Gestor de transacciones 330<BR>  6.8.2. Transacciones e interbloqueo 333<BR>  6.9. Aspectos de diseño 333<BR>  6.9.1. Soporte hardware para la sincronización 333<BR>  6.9.2. Espera activa 335<BR>  6.9.3. Espera pasiva o bloqueo 336<BR>  6.9.4. Sincronización dentro del sistema operativo 337<BR>  6.9.5. Comunicación dentro del sistema operativo 344<BR>  6.10. Servicios UNIX 345<BR>  6.10.1. Tuberías UNIX 345<BR>  6.10.2. Ejemplos con tuberías UNIX 346<BR>  6.10.3. Sockets 350 <BR> 8 Sistemas operativos 6.10.4. Ejemplos con sockets 351<BR>  6.10.5. Semáforos UNIX 356<BR>  6.10.6. Ejemplos con semáforos 357<BR>  6.10.7. Mutex y variables condicionales POSIX 363<BR>  6.10.8. Ejemplos con mutex y variables condicionales 363<BR>  6.10.9. Colas de mensajes en UNIX 366<BR>  6.10.10. Ejemplos de colas de mensajes en UNIX 367<BR>  6.10.11. Cerrojos en UNIX 373<BR>  6.10.12. Ejemplos con cerrojos UNIX 374<BR>  6.11. Servicios Windows 375<BR>  6.11.1. Tuberías en Windows 376<BR>  6.11.2. Secciones críticas en Windows 381<BR>  6.11.3. Semáforos en Windows 381<BR>  6.11.4. Mutex y eventos en Windows 384<BR>  6.11.5. Mailslots 386 <BR> 6.12. Lecturas recomendadas y bibliografía 388<BR>  6.13. Ejercicios 388<BR></h2></div>
+      </div>
+   
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div> 
+   
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Fundamentos de Redes.</h1>
+    </div>
+    <div data-role="content" align="center">
+       <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/libro5_5.jpg',1)"><img src="imagenes/libro5.jpg" width="361" height="129" id="Image5"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información...</h1>
+     <div>
+      <p><a href="http://www.freelibros.org/redes/fundamentos-de-redes-4ta-edicion-bruce-hallberg.html" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-fundamentos-de-redes/9789701058961/1108282" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>Parte I. Fundamentos de la conectividad de redes<BR><BR>1. El negocio de la conectividad<BR>2. Presentación de las bases<BR>3. La conectividad de redes<BR>4. Cableado de las redes<BR>5. Conectividad de redes domésticas<BR>6. Comprensión del hardware de las redes<BR>7. Conexiones entre WAN<BR>8. Protocolos de conectividad de redes<BR>9. Servicios de directorio<BR>10. Conexiones a larga distancia: acceso remoto a redes<BR>11. Asegurando su red<BR>12. Restablecimiento de los desastres de la red<BR>13. Servidores de red: todo lo que quería saber, pero temía preguntar<BR>14. Compra y administración de computadoras cliente<BR>Parte II. Conocimiento por medio de la práctica<BR><BR>15. Diseño de una red<BR>16. Instalación y confi guración de Windows 2000 Server<BR>17. Administración de Windows 2000 Server: los fundamentos<BR>18. Otros servicios de Windows 2000 Server.</h2></div> 
+        </div>
+        
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicación Tres, XGC.</h4>
+        </div>
+      </div>
+   
+   
+     <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Mantenimiento y Reparación de Computadoras.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/libro6_6.jpg',1)"><img src="imagenes/libro6.jpg" width="393" height="220" id="Image6"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Informacion...</h1>
+     <div>
+      <p><a href="http://articulo.mercadolibre.com.ar/MLA-605982664-libro-manual-de-mantenimiento-y-reparacion-de-computadoras-_JM" target="_self">Clic para Comprar.</a><br><br><a href="http://listado.mercadolibre.com.mx/libro-mantenimiento-y-reparacion-de-computadoras#D[A:libro-mantenimiento-y-reparacion-de-computadoras-]" target="_self">Clic para Descargar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2><p><strong>Contenido</strong></p>
+<ul>
+  <li>La computadora</li>
+	<li>La caja</li>
+	<li>La fuente de alimentaci&oacute;n</li>
+	<li>La placa base</li>
+	<li>Microprocesadores</li>
+	<li>La memoria RAM</li>
+	<li>Tarjetas de ampliaci&oacute;n</li>
+	<li>Dispositivos perif&eacute;ricos</li>
+	<li>El disco duro</li>
+	<li>Dispositivos &oacute;pticos</li>
+	<li>Montaje de una computadora</li>
+	<li>La BIOS (Basic input-output system)</li>
+	<li>El sistema operativo Windows</li>
+	<li>El sistema operativo Linux</li>
+	<li>Configuraci&oacute;n y uso b&aacute;sico del sistema operativo</li>
+	<li>Configuraci&oacute;n de los perif&eacute;ricos</li>
+	<li>Mantenimiento del hardware del PC</li>
+	<li>Mantenimiento del software del PC</li>
+	<li>Hiren&acute;s boot cd</li>
+	<li>DVD: El manual m&aacute;s completo con la informaci&oacute;n m&aacute;s actual para montar su computadora y sacar el m&aacute;ximo partido a todos sus componentes.</li>
+</h2></div>
+      </div>
+      
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div> 
+     
+     
+       <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Estructuras de Datos.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/libro7_7.jpg',1)"><img src="imagenes/libro7.jpg" name="Image7" width="246" height="245" id="Image7"></a>
+            <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Informacion...</h1>
+     <div>
+      <p><a href="http://www.freelibros.org/programacion/estructuras-de-datos-3ra-edicion-osvaldo-cairo-y-silvia-guardati.html" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-estructura-de-datos/9789701059081/1099527" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>CAPÍTULO 1. Estructuras fundamentales de datos 1<BR> <BR>1.1 Introducción 1<BR>1.2 Arreglos 2<BR>1.2.1 Declaración de arreglos unidimensionales 5 <BR>1.2.2 Operaciones con arreglos unidimensionales 7<BR>1.3 Arreglos bidimensionales 18<BR>1.3.1 Declaración de arreglos bidimensionales 19<BR>1.3.2 Operaciones con arreglos bidimensionales 23<BR>lA Arreglos de más de dos dimensiones 25<BR>1.5 La clase Arreglo 27 <BR>1 6 Registros 29<BR>1.6.1 Declaración de registros 29<BR>1.6.2 Acceso a los campos de un registro 30<BR>  1.6.3 Diferencias entre registros y arreglos 32<BR>  1.6.4Combinaciones entre arreglos y registros 32<BR>1.6.5 Arreglos paralelos 36<BR>1.7 Registros y clases 39<BR>Ejercicios 40 <BR>CAPÍTULO 2. Arreglos multidimensionales representados en arreglos unidimensionales 51<BR><BR>2.1 Introducción 51<BR>2.2 Arreglos bidimensionales 51<BR>  2.3 Arreglos de más de dos dimensiones 54<BR>2.4 Matrices poco densas 59<BR>2.4.1 Matrices cuadradas poco densas 61<BR>  2.4.2 Matriz triangular inferior 61<BR>2.4.3 Matriz triangular superior 63<BR>2.4.4 Matriz tridiagonal 65 <BR>2.4.5 Matrices simétricas y antisimétricas 67<BR>Ejercicios 69<BR>CAPÍTULO 3. Pilas y colas 75 <BR><BR>3 I Introducción 75 <BR>32 Pilas 75<BR>3.2.1 Representación de pilas 76 <BR>3.2.2 Operaciones con pilas 78<BR>3.2.3 Aplicaciones de pilas 81 <BR>3.2.4 La clase Pila 92 <BR3j Colas 93 <BR>
+3.3.1 Representación de colas 94<BR>3.3.2 Operaciones con colas 95 3.3.3 Colas circulares 99<BR>  3.3.4 Doble cola 102 <BR>3.3.5 Aplicaciones de colas 103<BR>3.3.6 La clase Cola 104<BR>EJ e1L c. 105 <BR>CAPÍTl LO 4. Recursión 109 <BR>4.1 Introducción 109<BR>4.2 El problema de las Torres de Hanoi 129<BR>4.1 Recursividad en árboles 137<BR>4 4 Recursividad en ordenación y búsqueda 137 <BR>r 'CI '1 138 ('APÍ n LO 5. Listas 141 5.: " Introducción 141 <BR>Listas simplemente ligadas 142<BR>  5.2.1 Operaciones con listas simplemente ligadas 142<BR>  5.2.2 Recorrido de una lista simplemente ligada 145<BR>5.2.3 Inserción en listas simplemente ligadas 146 <BR>5.2.4 Eliminación en listas simplemente ligadas 152<BR>5.2.5 Búsqueda en listas simplemente ligadas 156<BR>  Listas circulares 158<BR>Listas doblemente ligadas 159 <BR>5.4.1 Operaciones con listas doblemente ligadas 159 <BR>5.4.2 Recorrido de una lista doblemente ligada 160 <BR>5.4.3 Inserción en listas doblemente ligadas 160 <BR>5.4.4 Eliminación en listas doblemente ligadas 163<BR>Listas doblemente ligadas circulares 169 <BR>Aplicaciones de listas 170 <BR>Representación de polinomios 170<BR>  SoJtuaíónde colisiones (hash) 170<BR>Lista 171 1 3 Árboles 177<BR>Introducción 1 Árboles en general 178 <BR>6.2.1 Características y propiedades de los árboles 178<BR>
+6.2.2 Longitud de camino interno Yexterno 180 b -' Árboles binarios 184<BR>6.3.1 Árboles binarios distintos, similares y equivalentes 186<BR>6.3.2 Árboles binarios completos 187 <BR>6.3.3 Representación de árboles generales como binarios 188 <BR>6.3.4 Representación de un bosque como árbol binario 192<BR>6.3.5 Representación de árboles binarios en memoria 195<BR>6.3.6 Operaciones en árboles binarios 196<BR>6.3.7 Árboles binarios de búsqueda 203<BR>6.4 Árboles balanceados 214 <BR>6.4.1 Inserción en árboles balanceados 216 <BR>6.4.2 Reestructuración del árbol balanceado 218<BR>6.5 Árboles multicarninos 240<BR>6.5.1 Árboles-B 241 <BR>6.5.2 Árboles-B+ 255<BR>6.5.3 Árboles 2-4 264<BR>6.6 La clase Árbol 264<BR>EJtrciclOs 265 <BR>CAPÍTULO 7. Gráficas 277<BR><BR>7.1 Introducción 277<BR>7.2 Definición de gráficas 277<BR>7.3 Conceptos básicos de gráficas 279<BR>7.4 Gráficas dirigidas 280 <BR>7.4.1 Representación de gráficas dirigidas 282<BR>  7.4.2 Obtención de caminos dentro de una digráfica 285<BR>  7.4.3 Algoritmo de Dijkstra 285<BR>7.4.4 Algoritmo de Floyd 288<BR>7.4.5 Algoritmo de Marshall 292<BR>7.5 Gráficas no dirigidas 293 <BR>7.5.1 Representación de gráficas no dirigidas 294<BR>7.5.2 Construcción del árbol abarcador de costo mínimo 295<BR>  7.5.3 Algoritmo de Prim 296<BR>7.5.4 Algoritmo de Kruskal 298<BR>- 6 Resolución de problemas 301 <BR>A x 7.6.1 Espacio-estado 304 <BR>7.6.2 Métodos de búsqueda en espacio-estado 305 <BR>7.6.3 Métodos de búsqueda breadth-first 306 <BR>7.6.4 Método de búsqueda depth-first 316<BR>7.7 La clase gráfica 320<BR>Ejercicios 321<BR>CAPÍTULO 8. Métodos de ordenación 329<BR><BR>8.1 Introducción 329 <BR>8.2 Ordenación interna 331<BR>8.2.1 Ordenación por intercambio directo (burbuja) 332 <BR>8.2.2 Ordenación por el método de intercambio directo con señal 336<BR>8.2.3 Ordenación por el método de la sacudida (shaker sort) 337 <BR>8.2.4 Ordenación por inserción directa 339 <BR>8.2.5 Ordenación por el método de inserción binaria 344<BR>8.2.6 Ordenación por selección directa 346<BR>8.2.7 Análisis de eficiencia de los métodos directos 349 <BR>8.2.8 Ordenación por el método de Shell 350<BR>8.2.9 Ordenación por el método quicksort 354<BR>8.2.10 Ordenación por el método heapsort (montículo) 362 <BR>8.3 Ordenación externa 371 8.3.1 Intercalación de archivos 372<BR>  8.3.2 Ordenación de archivos 374 <BR>8.3.3 Ordenación por mezcla directa 374<BR>8.3.4 Ordenación por el método de mezcla equilibrada 380<BR>Ejercicio 386 CAPÍTULO 9. Métodos de búsqueda 391<BR>9. I Introducción 391 9.2 Búsqueda interna 392<BR>9.2.1 Búsqueda secuencial 393<BR>9.2.2 Búsqueda binaria 397<BR>9.2.3 Búsqueda por transformación de claves 402<BR>9.2.4 Función hash por módulo: división 403<BR>9.2.5 Función hash cuadrado 404 <BR>9.2.6 Función hash por plegamiento 405<BR>9.2.7 Función hash por truncamiento 406<BR>9.2.8 Solución de colisiones 406<BR>9.2.9 Reasignación 407<BR>9.2.10 Arreglos anidados 413<BR>9.2.11 Encadenamiento 414<BR>9.2.12 Árboles de búsqueda 418<BR>S 3 Búsqueda externa 420<BR>9.3.1 Búsqueda en archivos secuenciales 422<BR>  9.3.2 Búsqueda secuencial 422<BR>9.3.3 Búsqueda secuencial mediante bloques 424 <BR>9.3.4 Búsqueda secuencial con índices 425 <BR>9.3.5 Búsqueda binaria 427 <BR>9.3.6 Búsqueda por transformación de claves (hash) 428<BR>  9.3.7 Solución de colisiones 429<BR>9.3.8 Hashing dinámico: búsqueda dinámica por transformación de claves 433<BR>9.3.9 Método de las expansiones totales 433 <BR>
+9.3.10 Método de las expansiones parciales 437 <BR>9.3.11 Listas invertidas 440 <BR>9.3.12 Multilistas 445<BR>Ejercicio. 448<BR>BIBLIOGRAFÍA 455<BR>GLOSARIO 461<BR>ÍNDICE ANALÍTICO 465
+</h2></div> 
+      </div>
+      
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div>
+   
+   
+     <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Paso a Paso (ASP.NET 4.0).</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/libro8_8.jpg',1)"><img src="imagenes/libro8.jpg" name="Image8" width="235" height="225" id="Image8"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Mas informacion...</h1>
+     <div>
+      <p><a href="https://www.amazon.es/s/ref=nb_sb_noss?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Dstripbooks&field-keywords=ASP.NET+4.0+%28Paso+A+Paso%29" target="_self">Clic para Comprar.</a><br> <br><a href="http://ptgmedia.pearsoncmg.com/IMAGES/9780735627017/SAMPLEPAGES/9780735627017.PDF" target="_self">Clic para Descargar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>CONTENIDO: <BR> 1. Introducción. <BR> 2. Para quien es este libro. <BR> 3. Por dónde empezar. <BR>4.Convenciones utilizadas en este libro. <BR>5.Otras características<BR>6.Requisitos de hardware y software. <BR>7.Ejemplos del libro…<BR><BR><BR> Parte 1. <BR>Introducción a Microsoft Visual C# y Microsoft Visual Studio 2010. <BR> Bienvenido a C#. <BR>Introducción a la programación con el entorno Visual Studio 2010. <BR>Creación de una aplicación de consola en Visual Studio 2010. <BR>Nuestro primer programa. <BR>Escribir el código mediante Microsoft IntelliSense. <BR>Compilar y ejecutar la aplicación de consola. <BR>Uso de espacios de nombres. <BR>Creación de una aplicación gráfica. <BR>Creación de una aplicación grafica en Visual Studio 2010. <BR>Creación de la interfaz de usuario. <BR> Escriba el código para el botón OK Referencia rápida. <BR><BR>2.Funcionamieno de variables, operadores y expresiones. <BR>Como funcionan las instrucciones. <BR>Uso de los identificadores. <BR>Palabras claves. <BR>Uso de variables. <BR>Como poner nombre a las variables. <BR>Declaración de variables. <BR> Uso de los tipos de datos primitivos. <BR>Variables locales sin valor asignado. <BR>Mostrar los valores de los tipos de datos primitivos. <BR>Uso de los tipos de datos primitivos en el código. <BR>Utilización de los operadores aritméticos. <BR>Operadores y tipos. <BR>Examinar los operadores aritméticos. <BR>Uso de los operadores aritméticos. <BR>Examine el código del programa MathsOperators. <BR>Orden de precedencia de los operadores. <BR>Uso de la asociatividad para evaluar las expresiones. <BR>La asociatividad y el operador de asignación.</h2></div> 
+      </div>
+      
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div>
+   
+     <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Java Cómo Programar.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/libro9_9.jpg',1)"><img src="imagenes/libro9.jpg" name="Image9" width="246" height="289" id="Image9"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Infprmación...</h1>
+     <div>
+      <p><a href="https://docs.google.com/file/d/0B1znxPN5ACgSbHhVU1RaVFh0cVU/edit" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-como-programar-en-java-7-ed/9789702611905/1223777" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>1 Introducción a las computadoras, Internet y Web<BR>2 Introducción a las aplicaciones en Java<BR>
+3 Introducción a las clases y los objetos<BR>
+4 Instrucciones de control: parte<BR>
+5 Instrucciones de control: parte<BR>
+6 Métodos: un análisis más detallado 211<BR>
+7 Arreglos<BR>
+8 Clases y objetos: un análisis más detallado<BR>
+9 Programación orientada a objetos: herencia<BR>
+10 Programación orientada a objetos: polimorfismo<BR>
+11 Componentes de la GUI: parte 1<BR>
+12 Gráficos y Java 2DTM<BR>
+13 Manejo de excepciones<BR>
+14 Archivos y flujos<BR>
+15 Recursividad<BR>
+16 Búsqueda y ordenamiento<BR>
+17 Estructuras de datos<BR>
+18 Genéricos<BR>
+19 Colecciones<BR>
+20 Introducción a los applets de Java<BR>
+21 Multimedia: applets y aplicaciones<BR>
+22 Componentes de la GUI: parte 2<BR>
+23 Subprocesamiento múltiple<BR>
+24 Redes<BR>
+25 Acceso a bases de datos con JDBC<BR>
+26 Aplicaciones Web: parte 1<BR>
+27 Aplicaciones Web: parte 2<BR>
+28 Servicios Web JAX-WS, Web 2.0 y Mash-ups<BR>
+29 Salida con formato<BR>
+30 Cadenas, caracteres y expresiones regulares.</h2></div> 
+      </div>
+       
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div>
+   
+   
+     <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Programación en Java.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/libro10_10.jpg',1)"><img src="imagenes/libro10.jpg" name="Image10" width="246" height="273" id="Image10"></a>
+       <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Mas informacion..</h1>
+     <div>
+      <p><a href="https://www.fiuxy.co/ti-programacion-webmasters/4191894-como-programar-en-java-deitel-7-y-9-edicion-pdf.html" target="_self">Clic para descargar.</a><br><br><a href="http://articulo.mercadolibre.com.mx/MLM-562599586-como-programar-en-java-deitel-7-edicion-digital-_JM?source=gps" target="_self">Clic para comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>CONTENIDO:<BR><BR>
+Características nuevas de la segunda edición XVII<BR>
+Características principales XIX<BR>
+Materiales de apoyo XXVII<BR>
+Organización de libros XXIX<BR>
+Agradecimientos XXXI<BR>
+Introducción a la Computadoras y los Lenguajes de Programación 1<BR>
+0.1. Historias de las computadoras 2<BR>
+0.2. Arquitectura de una computadora 4<BR>
+0.3. Lenguajes de programación 11<BR>
+0.4. Java 12<BR>
+0.5. Ejercicios 13<BR>
+Introducción a la Programación Orientad a objetos y el Desarrollo de Software 15<BR><BR>
+1.1. Clases y objetos 16<BR>
+1.2. Mensajes y métodos 19<BR>
+1.3. Valores de datos de clase y de instancia 23<BR>
+1.4. Herencia 26<BR>
+1.5. Ingeniería de software y ciclo de vida del software 29<BR>
+1.6. Divirtiéndose con Java 30<BR>
+1.7. Ejercicios 33<BR>
+2. Fundamentos de la Programación con Java 37<BR>
+2.1. La primera aplicación Java 38<BR>
+2.2. Componentes de un programa 47<BR>
+2.3. Ciclo – edición – compilación – ejecución 57<BR>
+2.4. El paquete javabook 60<BR>
+2.5. Programa de ejemplo: mostrando mensajes 61<BR>
+2.6. El primer appler de Java 64<BR>
+2.7. Ejercicios 74<BR>
+3. Datos Numéricos 81<BR>
+3.1. Variables 82<BR>
+3.2. Expresiones aritméticas 89<BR>
+3.3. Constantes 94<BR>
+3.4. La clave Math 97<BR>
+3.5. Cuadro entrada 99<BR>
+3.6. Cuadro salida 102<BR>
+3.7. Programa de ejemplo: Calculador de préstamo 108<BR>
+3.8. Representación numérica: calculador de prestamos 108<BR>
+3.9. Ejercicios 124<BR>
+4. Definición de la Clases Instanciables 133<BR>
+4.1. Definición de la clases instanciables 134<BR>
+4.2. Clases instanciables y constructores 146<BR>
+4.3. Modificadores de visibilidad: public y private 150<BR>
+4.4. Variables locales, valores de vueltas y paso de parámetros 155<BR>
+4.5. Programa calculador de préstamo con una clase instanciable 160<BR>
+4.6. Ejercicios 174<BR>
+5. Procesamiento de Entrada con Applets 185<BR>
+5.1. Como usar objetos GUI en applets 186<BR>
+5.2. Como añadir un ActionListener a un generador de eventos 193<BR>
+5.3. Posicionamiento absoluto de objetos numéricos GUI 200<BR>
+5.4. La clase Button 202<BR>
+5.5. Conversión de texto a valores numéricos 204<BR>
+5.6. Programa de ejemplo: calculo del índice de masa corporal (IMC) 206<BR>
+5.7. Ejecutando un applet como una aplicación 216<BR>
+5.8. Ejercicios 218<BR>
+6. Sentencias de Selección 223<BR>
+6.1. La sentencia if 224<BR>
+6.2. Expresiones booleanas y variables 231<BR>
+6.3. Sentencia if anidadas 235<BR>
+6.4. CuadroLista 241<BR>
+6.5. La sentencia switch 246<BR>
+6.6. Programa de ejemplo: dibujar formas 250<BR>
+6.7. Ejercicios 272<BR>
+7. Sentencias de Repetición 281<BR>
+7.1. La sentencia while 282<BR>
+7.2. Errores comunes en la programación de sentencias de repetición 286<BR>
+7.3. La sentencia do - while 290<BR>
+7.4. CuadroRespuesta 294<BR>
+7.5. La sentencia for 299<BR>
+7.6. Sentencias for anidadas 303<BR>
+7.7. La clase formato 306<BR>
+7.8. Tablas de prestamos 312<BR>
+7.9. Programa de ejemplos: juego alto - bajo 315<BR>
+7.10. (Opcional) Métodos recursivos 327<BR>
+7.11. Ejercicios 332<BR>
+8. Caracteres y Strings 343<BR>
+8.1. Caracteres 344<BR>
+8.2. Strings 347<BR>
+8.3. Tipos primitivos frente a tipos de referencia 357<BR>
+8.4. StringsBuffer 365<BR>
+8.5. Paso de objetos como parámetros 370<BR>
+8.6. Devolución de objetos desde métodos 375<BR>
+8.7. Programa de ejemplos: juego de palabras 378<BR>
+8.8. Ejercicios 390<BR>
+9. Vectores y Matrices 397<BR>
+9.1. Conceptos básicos sobre vectores 398<BR>
+9.2. Vectores de objetos 406<BR>
+9.3. Paso de vectores a métodos 415<BR>
+9.4. CuadroEntradaMultiple 420<BR>
+9.5. Puntero de auto - referencia 423<BR>
+9.6. Ejemplo de desarrollo: el libro de direcciones 429<BR>
+9.7. Vectores de dos dimensiones 446<BR>
+9.8. Clase vector 453<BR>
+9.9. Ejercicios 458<BR>
+10. Ordenación y Búsqueda 463<BR>
+10.1 Búsqueda 464<BR>
+10.2. Ordenación 469<BR>
+10.3. Ordenación por montículo 475<BR>
+10.4. Programa de ejemplo: ordenación de un libro de direcciones 489<BR>
+10.5. Ejercicios 495<BR>
+11. Entrad y Salida con Archivos 499<BR>
+11.1. Objetos file y fileDialog 500<BR>
+11.2. E/S de archivos de bajo nivel 505<BR>
+11.3. E/S a archivos de alto nivel 512<BR>
+11.4. Manejo de excepciones 519<BR>
+11.5. E/S con objetos 524<BR>
+11.6. Clase de ejemplo: guardar un objeto Libro de Direcciones 528<BR>
+11.7. Ejercicios 536<BR>
+12. Paquetes y Clases Reusables 539<BR>
+12.1. Categoría de objetos 540<BR>
+12.2. Redefinición de métodos y métodos sobrecargados 541<BR>
+12.3. Clases de ejemplo: EggyPeggy y AltoBajo reutilizables 549<BR>
+12.4. Organización del paquete 573<BR>
+12.5. Ejercicios 576<BR>
+13. GUI y programación guiada por eventos 581<BR>
+13.1. Como colocar botones en un marco 583<BR>
+13.2. Manejo de eventos 589<BR>
+13.3. Como colocar objetos TextField en un marco 596<BR>
+13.4. Menús 597<BR>
+13.5. Eventos de manejo de ratón 604<BR>
+13.6. Otros objetos GUI 613<BR>
+13.7. Programa de ejemplo: una calculadora sencilla 618<BR>
+13.8. Ejercicios 630<BR>
+14. Herencia y Polimorfismo 635<BR>
+14.1. Definición de clases con herencia 636<BR>
+14.2. Como utilizar clases de forma efectiva utilizando polimorfismo 640<BR>
+14.3. Herencia y accesibilidad de miembros 644<BR>
+14.4. Herencia y constructores 649<BR>
+14.5. Superclases abstractas y métodos abstractos 653<BR>
+14.6. Cuando utilizar y cuando no la herencia 659<BR>
+14.7. Programa de ejemplo: calculo de las notas del curso 661<BR>
+14.8. Ejercicios 680<BR>
+15. Programa de mantenimiento de lista de notas 685<BR>
+15.1. Diagrama de secuencia de llamadas a métodos 686<BR>
+15.2. Definición de problemas 687<BR>
+15.3. Plan global 688<BR>
+15.4. Paso 1 del desarrollo: esqueleto del programa con menús 692<BR>
+15.5. Paso 2 del desarrollo: creación de una nueva lista 697<BR>
+15.6. Paso 3 del desarrollo: añadir estudiantes 704<BR>
+15.7. Paso 4 del desarrollo: borrar estudiantes 711<BR>
+15.8. Paso 5 del desarrollo: editar nombres de estudiantes 715<BR>
+15.9. Paso 6 del desarrollo: editar notas de exámenes y calcular notas 721<BR>
+15.10. Paso 7 del desarrollo: mostrar la información de los estudiantes 727<BR>
+15.11. Paso 8 del desarrollo: almacenamiento de listas de notas 738<BR>
+15.12.Paso 9 del desarrollo: finalizar y mejorar 747<BR>
+15.13. La clase CuadroDialogoNombreEstudiante 747<BR>
+15.14. La clase CuadroDialogoNotasExamen 757<BR>
+15.15. Ejercicio 762<BR>
+16. Algoritmos recursivos 767<BR>
+16.1. Elementos básicos de la recursividad 768<BR>
+16.2. Listados e directorios 769<BR>
+16.3. Anagrama 771<BR>
+16.4. Las Torres de Hanoi 774<BR>
+16.5. Quicksort 777<BR>
+16.6. Cuando no utilizar recursividad 783<BR>
+16.7 Ejercicio 785<BR>
+A. El paquete javabook 789<BR>
+Índice 809.</h2></div> 
+      </div>
+      
+     
+ 
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div>
+   
+     <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Comunicaciones y Redes de Computadoras.</h1>
+    </div>
+    <div data-role="content" align="center"> 
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/libro11_11.jpg',1)"><img src="imagenes/libro11.jpg" name="Image20" width="246" height="250" id="Image20"></a>
+      <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información...</h1>
+     <div>
+      <p><a href="http://www.freelibros.org/redes/comunicaciones-y-redes-de-computadores-7ma-edicion-william-stallings.html" target="_self">Clic para Descargar.</a><br><br><a href="https://mx.casadellibro.com/libro-comunicaciones-y-redes-de-computadores-7-ed/9788420541105/967475" target="_self">Clic para Comprar.</a> </p>
+      <br>
+    </div>
+  </div>
+ </div>
+      <h2>Contenido: <BR>Prólogo . XXIII <BR>Capítulo 0. Guía del lector 1. <BR>1Resumen del texto . 2 . <BR>2. Internet y recursos web 2<BR> Sitios web relacionados con el texto 2<BR>Otros sitios web  3<BR>Grupos de noticias de USENET 4<BR> 3.Estándares 4<BR>PARTE I<BR>Descripción general <BR>Capítulo 1. Introducción a las comunicaciones de datos y redes . 9 <BR>1.1. Un modelo para las comunicaciones 10<BR>1.2. Comunicaciones de datos 13<BR>1.3. Redes de transmisión de datos 14 <BR>Redes de área amplia 15 <BR>Redes de área local . 17 <BR>Redes inalámbricas . 17<BR>Redes de área metropolitana .17 <BR>1.4.Un ejemplo de configuración 18<BR> Capítulo 2. Arquitectura de protocolos 21. <BR>2.1¿Por qué es necesaria una arquitectura de protocolos? 22 <BR>2.2Una arquitectura de protocolos simple 23 <BR>Un modelo de tres capas . 25 <BR>Arquitecturas de protocolos normalizadas 28 <BR>2.3.OSI . 29<BR>El modelo . 29<BR>Normalización dentro del modelo de referencia OSI 32 <BR>Parámetros y primitivas de servicio 35<BR>Las capas de OSI . 36 <BR>2.4La arquitectura de protocolos TCP/IP 40<BR>Las capas de TCP/IP 40 <BR>TCP y UDP 41 <BR>Funcionamiento de TCP e IP 42 <BR>Aplicaciones TCP/IP . 44 <BR>Interfaces de protocolo . 45<BR>2.5.Lecturas recomendadas y sitios web . 45 <BR>Sitios web recomendados 46 <BR>2.6.Términos clave, cuestiones de repaso y ejercicios 47 <BR>Términos clave . 47 <BR>Cuestiones de repaso . 47<BR>Ejercicios . 47 <BR>Apéndice 2A. El protocolo TFTP (Trivial File Transfer Protocol) 49 <BR>Introducción a TFTP . 49 <BR>Paquetes TFTP .. 49 <BR>Ejemplo de transferencia . 51<BR>Errores y retardos 51 <BR>Sintaxis, semántica y temporización 52<BR>PARTE II <BR><BR>Comunicaciones de datos<BR>Capítulo 3. Transmisión de datos 57 <BR>3.1. Conceptos y terminología 59 <BR>Terminología utilizada en transmisión de datos 59<BR>Frecuencia, espectro y ancho de banda 59<BR>3.2. Transmisión de datos analógicos y digitales 69<BR>Datos analógicos y digitales . 69<BR>Señales analógicas y digitales 72<BR>Transmisión analógica y digital . 76 <BR>3.3. Dificultades en la transmisión 78 <BR>Atenuación. 78 <BR>Distorsión de retardo . 80 <BR>Ruido 80<BR>3.4. Capacidad del canal 83<BR>Ancho de banda de Nyquist . 84<BR>Fórmula para la capacidad de Shannon 84<BR>El cociente Eb/N0 . 86<BR>3.5. Lecturas recomendadas . 88<BR>3.6. Términos clave, cuestiones de repaso y ejercicios 88 <BR>Términos clave 88<BR>Cuestiones de repaso 88 <BR>Ejercicios 89 <BR>Apéndice 3A. Decibelios y energía de la señal 91<BR>Contenido <BR>Capítulo 4. <BR>Medios de transmisión 95 <BR>4.1. Medios de transmisión guiados . 97 <BR>Par trenzado. 99 <BR>Cable coaxial 104<BR>Fibra óptica . 105<BR>4.2. Transmisión inalámbrica 109 <BR>Antenas . 110<BR>Microondas terrestres 112 <BR>Microondas por satélite . 113 <BR>Ondas de radio 116<BR>Infrarrojos 117 <BR>4.3. Propagación inalámbrica 117 <BR>Propagación superficial de ondas 119<BR>Propagación aérea de ondas 120 <BR>Propagación en la trayectoria visual . 120 <BR>4.4. Transmisión en la trayectoria visual 122 <BR>Pérdida en el espacio libre . 122 <BR>Absorción atmosférica 124<BR>Multitrayectorias. 125<BR>Refracción 126 <BR>4.5. Lecturas recomendadas y sitios web 126<BR>4.6. Términos clave, cuestiones de repaso y ejercicios 127 <BR>Términos clave 127<BR>Cuestiones de repaso 127 <BR>Ejercicios. 128 <BR>Capítulo 5. <BR>Técnicas para la codificación de señales 133<BR>5.1. Datos digitales, señales digitales . 135<BR>No retorno a cero 139<BR>Binario multinivel . 140<BR>Bifase . 141<BR>Velocidad de modulación 143 <BR>Técnicas de aleatorización 144<BR>5.2. Datos digitales, señales analógicas 146<BR>Modulación por desplazamiento de amplitud 146 <BR>Modulación por desplazamiento de frecuencia 147<BR>Modulación por desplazamiento de fase 149 <BR>Prestaciones 153<BR>
+Modulación de amplitud en cuadratura 156<BR>5.3. Datos analógicos, señales digitales . 157<BR>Modulación por impulsos codificados . 157<BR> Modulación delta 160<BR>Prestaciones 162<BR> 5.4. Datos analógicos, señales analógicas 163<BR>Modulación de amplitud . 164<BR>Modulación angular 166<BR> 5.5. Lecturas recomendadas . 169<BR>Contenido XI 5.6. Términos clave, cuestiones de repaso y ejercicios . 170<BR>Términos clave 170<BR> Cuestiones de repaso . 171<BR>Ejercicios .1<BR>Capítulo 6<BR>Técnicas de comunicación de datos digitales . 177<BR> 6.1. Transmisión asíncrona y síncrona 179<BR>Transmisión asíncrona . 179<BR>Transmisión síncrona 181<BR>6.2. Tipos de errores 182<BR>6.3. Detección de errores. 183 <BR>Comprobación de paridad . 184Comprobación de redundancia cíclica (CRC) 185 <BR>6.4. Corrección de errores . 191<BR>Principios generales de los códigos de bloque . 193<BR>6.5. Configuraciones de línea . 197 <BR>Topología . 197<BR>Full-duplex y Half-duplex . 197 <BR>6.6. Interfaces . 198<BR>V.24/EIA-232-F 200<BR>La interfaz física de RDSI 206<BR>6.7. Lecturas recomendadas 209<BR>6.8. Términos clave, cuestiones de repaso y ejercicios 210 <BR>Cuestiones de repaso 210<BR>Ejercicios . 210<BR>Capítulo 7. <BR>Protocolos de control del enlace de datos 215<BR>7.1. Control de flujo . 217 <BR>Control de flujo mediante parada y espera 218 <BR>Control de flujo mediante ventana deslizante .. 220 <BR>7.2. Control de errores 223 <BR>ARQ con parada y espera . 224<BR>ARQ con vuelta atrás N . 226 <BR>ARQ con rechazo selectivo . 228<BR>7.3. Control del enlace de datos de alto nivel (HDLC) 229 <BR>Características básicas . 229<BR>Estructura de trama 230 <BR>Funcionamiento 233 <BR>7.4. Lecturas recomendadas 237<BR>7.5. Términos clave, cuestiones de repaso y ejercicios . 237 <BR>Términos clave . 237 <BR>Cuestiones de repaso 238<BR>Ejercicios . 238 <BR>Apéndice 7A. Análisis de prestaciones 241 <BR>Control del flujo mediante parada y espera . 241 <BR>Control del flujo sin errores mediante ventana deslizante 243 <BR>ARQ 245 <BR>XII Contenido<BR>Capítulo 8. <BR>Multiplexación 249<BR>8.1. Multiplexación por división en frecuencias 251 <BR>Características . 251 <BR>Sistemas de portadora analógica 256 <BR>Multiplexación por división en la longitud de onda . 257<BR>8.2. Multiplexación por división en el tiempo síncrona . 258 <BR>Características . 258<BR>Control del enlace en TDM . 260 <BR>Sistemas de portadora digital 263<BR>SONET/SDH . 265<BR>8.3. Multiplexación por división en el tiempo estadística 268 <BR>Características 268 <BR>Prestaciones . 270 <BR>Cable-módem 274<BR>8.4. Línea de abonado digital asimétrica 275 <BR>Diseño ADSL. 275<BR>Multitono discreto . 277 <BR>8.5. xDSL . 278 <BR>Línea de abonado digital de alta velocidad (HDSL) 278 <BR>Línea de abonado digital de una sola línea (SDSL). 279 <BR>Línea de abonado digital de muy alta velocidad (VDSL) 279 <BR>8.6. Lecturas y sitios web recomendados . 280<BR>8.7. Términos clave, cuestiones de repaso y ejercicios . 280<BR>Términos clave . 280 <BR>Cuestiones de repaso 281 <BR>Ejercicios . 281<BR>Capítulo 9. <BR>Espectro expandido .. 285 <BR>9.1. El concepto de espectro expandido 286<BR>9.2. Espectro expandido por salto de frecuencias . 287<BR>Esquema básico 288<BR>FHSS usando MFSK . 290<BR>Análisis de prestaciones de FHSS . 292<BR>9.3. Espectro expandido de secuencia directa . 292 <BR>DSSS usando BPSK .. 293 <BR>Análisis de prestaciones de DSSS 294 <BR>9.4. Acceso múltiple por división de código . 297 <BR>Principios básicos 297<BR>CDMA para espectro expandido de secuencia directa . 299 <BR>9.5. Lecturas recomendadas .. 300 <BR>9.6. Términos clave, cuestiones de repaso y ejercicios . 301<BR>Términos clave .301 <BR>Cuestiones de repaso . 301<BR>Ejercicios 301<BR>Contenido XIII <BR>PARTE III <BR>
+Redes de área amplia<BR>Capítulo 10. <BR>Conmutación de circuitos y de paquetes. 309 <BR>10.1. Redes conmutadas 311 <BR>10.2. Redes de conmutación de circuitos 312 <BR>10.3. Conceptos de conmutación de circuitos . 315<BR>Conmutación por división en el espacio 317 <BR>Conmutación por división en el tiempo . 319 <BR>10.4. Señalización de control . 319<BR>Funciones de señalización . 320 <BR>Localización de la señalización 322<BR>Señalización por canal común . 322 <BR>Sistema de señalización número 7 326 <BR>10.5. Arquitectura de conmutación lógica . 329<BR> 10.6. Principios de conmutación de paquetes 330 <BR>Técnica de conmutación 331 <BR>Tamaño de paquete 334 <BR>Comparación de las técnicas de conmutación de circuitos y de paquetes . 336 <BR>10.7. X.25 . 339<BR>10.8. Retransmisión de tramas 341<BR>Fundamentos .. 341 <BR>Arquitectura de protocolos en retransmisión de tramas. 342<BR> Transferencia de datos de usuario . 343 <BR>10.9. Lecturas y sitios web recomendados . 345<BR> 10.10. Términos clave, cuestiones de repaso y ejercicios . 346<BR> Términos clave 346<BR>Cuestiones de repaso . 346<BR>Ejercicios 347<BR>Capítulo 11. <BR>Modo de transferencia asíncrono 349<BR>11.1. Arquitectura de protocolos 350<BR>11.2. Conexiones lógicas ATM . 351<BR>Uso de conexiones de canal virtual 353<BR>Características camino virtual/canal virtual. 354<BR>Señalización de control . 355<BR>11.3. Celdas ATM . 356 <BR>Formato de cabecera 356 <BR>Control de flujo genérico . 358 <BR>Control de errores de cabecera 360 <BR>11.4. Transmisión de celdas ATM 362 <BR>Capa física basada enceldas .. 362 <BR>Capa física basada en SDH . 364 <BR>11.5. Clases de servicios ATM . 365 <BR>Servicios en tiempo real . 365<BR>Servicios en no tiempo real 366 <BR>11.6. Capa de adaptación ATM .. 368 <BR>Servicios AAL 368 <BR>Protocolos AAL 370 <BR>11.7. Lecturas y sitios web recomendados . 375<BR> 11.8. Términos clave, cuestiones de repaso y ejercicios . 376<BR>Términos clave 376 <BR>Cuestiones de repaso . 376<BR>Ejercicios . 376<BR>Capítulo 12<BR>Encaminamiento en redes conmutadas . 379 <BR>12.1. Encaminamiento en redes de conmutación de circuitos . 380 <BR>12.2. Encaminamiento en redes de conmutación de paquetes . 382 <BR>Características .. 382 <BR>Estrategias de encaminamiento 386<BR> Ejemplos .. 391 <BR12.3. Algoritmos de mínimo coste 397<BR>Algoritmo de Dijkstra . 397<BR>Algoritmo de Bellman-Ford . 398 <BR>Comparación . 401 <BR>12.4. Lecturas recomendadas . 401<BR> 12.5. Términos clave, cuestiones de repaso y ejercicios . 401 <BR>Términos clave . . 401<BR>Cuestiones de repaso . 402<BR>Ejercicios . 402 <BR>Capítulo 13. <BR>Congestión en redes de datos . 407 <BR>13.1. Efectos de la congestión. 409 <BR>Funcionamiento ideal . 410 <BR>Funcionamiento real .. 412 <BR>13.2. Control de congestión 413 <BR>Contrapresión . 414<BR>Paquetes de obstrucción .. 414<BR> Señalización implícita de congestión . 415<BR> Señalización explícita de congestión. 415 <BR>13.3. Gestión de tráfico 416 <BR>Imparcialidad . 417 <BR>Calidad de servicio .. 417<BR>Reservas . 417<BR>13.4. Control de congestión en redes de conmutación de paquetes 418 <BR>13.5. Control de congestión en retransmisión de tramas . 418 <BR>Gestión de la tasa de tráfico 420<BR>Prevención de congestión mediante señalización explícita. 423 <BR>13.6. Gestión de tráfico en ATM . . 424<BR>Requisitos para el control de tráfico y de congestión en ATM . . 424 <BR>Efectos de latencia/velocidad . 425<BR>Variación del retardo de celdas . 426<BR>Control de tráfico y de congestión. 429<BR>Técnicas de gestión de tráfico y de control de congestión .. 430<BR>13.7. Gestión de tráfico GFR en ATM . 436 <BR>Mecanismos de soporte de tasas garantizadas .. 437<BR>Definición de adecuación GFR . . 438 <BR>Mecanismo para la comprobación de elegibilidad de QoS. 439<BR>13.8. Lecturas recomendadas . 439<BR>13.9. Términos clave, cuestiones de repaso y ejercicios .. 441<BR>Términos clave . 441<BR>Cuestiones de repaso . 441<BR>Ejercicios .. 441 <BR>Capítulo 14. <BR>Redes celulares inalámbricas . 445 <BR>14.1. Principios de redes celulares . 446 <BR>Organización de una red celular . 446 <BR>Funcionamiento de sistemas celulares . 451<BR>Efectos de propagación en radio móvil . 454 <BR>Desvanecimiento en entornos móviles . 456<BR>14.2. Primera generación analógica . 460 <BR>Asignación espectral. 460<BR>Funcionamiento . 461 <BR>Canales de control en AMPS 461 <BR>14.3. CDMA de segunda generación .. 461 <BR>Sistemas celulares de primera y segunda generación . 462 <BR>Acceso múltiple por división de código 462 <BR>Consideraciones de diseño de CDMA móvil inalámbrico . 463<BR>IS-95 . 464<BR>Enlace de ida en IS-95 . 464 <BR>Enlace de retorno en IS-95 467 <BR>14.4. Sistemas de tercera generación 470<BR>Interfaces alternativas . 471 <BR>Consideraciones de diseño de CDMA .. 472 
+.</h2></div>
+      </div>
+      
+   <div data-role="footer" data-theme="a" data-position="fixed">
+        <h4>Aplicación Tres, XGC.</h4> 
+   </div>
+   </div>
+   
+     
+</body>
+</html>

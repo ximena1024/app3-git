@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor3</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fly</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>J:/ /DAM/Segundo Parcial/aplicaciones/app3/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>J:/ /DAM/Segundo Parcial/aplicaciones/app3</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54acd2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro1.jpg</url>
+                <title>Redes de Computadoras.</title>
+                <filesize>66255</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro2.jpg</url>
+                <title>Paso a Paso Visual C# 2010.</title>
+                <filesize>54447</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro3.jpg</url>
+                <title>Programacion Avanzada (SQL Server 2005).</title>
+                <filesize>45236</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro4.jpg</url>
+                <title>Sistemas Operativos.</title>
+                <filesize>44793</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro5.jpg</url>
+                <title>Fundamentos de Redes.</title>
+                <filesize>53797</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro6.jpg</url>
+                <title>Mantenimiento y Reparacion de Computadoras.</title>
+                <filesize>68114</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro7.jpg</url>
+                <title>Estructura de Datos.</title>
+                <filesize>56744</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro8.jpg</url>
+                <title>Paso a Paso ASP.NET 4.0</title>
+                <filesize>49367</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro9.jpg</url>
+                <title>Java como Programar,</title>
+                <filesize>71683</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro10.jpg</url>
+                <title>Programacion en Java.</title>
+                <filesize>55873</filesize>
+            </Image>
+            <Image>
+                <url>J:/ /DAM/Segundo Parcial/aplicaciones/app3/imagenes/libro11.jpg</url>
+                <title>Comunicaciones y Redes.</title>
+                <filesize>57819</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
